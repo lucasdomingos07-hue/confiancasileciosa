@@ -124,7 +124,7 @@ export default function UpsellPage() {
                   <ul className="space-y-4 max-w-md mx-auto">
                     {benefits.map((benefit, index) => (
                       <li key={index} className="flex items-start gap-3">
-                        <benefit.icon className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                        <benefit.icon className="h-6 w-6 text-destructive flex-shrink-0 mt-1" />
                         <span className="text-foreground/90">{benefit.text}</span>
                       </li>
                     ))}
