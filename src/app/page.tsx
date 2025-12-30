@@ -25,6 +25,13 @@ export default function UpsellPage() {
   ];
 
   useEffect(() => {
+    // Adiciona o script da Wistia ao head
+    const script = document.createElement('script');
+    script.src = "https://fast.wistia.com/assets/external/E-v1.js";
+    script.async = true;
+    document.head.appendChild(script);
+
+    // Inicializa o player e os eventos
     window._wq = window._wq || [];
     window._wq.push({
       id: "7ld00usp25",
@@ -38,13 +45,14 @@ export default function UpsellPage() {
         });
       }
     });
+
+    return () => {
+      document.head.removeChild(script);
+    }
   }, []);
 
   return (
     <>
-      <Head>
-        <script src="https://fast.wistia.com/player.js" async></script>
-      </Head>
       <main className="flex min-h-screen flex-col items-center justify-start p-4 md:p-8 lg:p-12">
         <div className="w-full max-w-5xl mx-auto">
           <header className="text-center mb-8">
@@ -73,19 +81,7 @@ export default function UpsellPage() {
               <div 
                 className="wistia_embed wistia_async_7ld00usp25 videoFoam=true" 
                 style={{ height: '100%', position: 'relative', width: '100%' }}
-              >
-                <div 
-                  className="wistia_swatch" 
-                  style={{ height: '100%', left: 0, opacity: 0, overflow: 'hidden', position: 'absolute', top: 0, transition: 'opacity 200ms', width: '100%' }}
-                >
-                  <img 
-                    src="https://fast.wistia.com/embed/medias/7ld00usp25/swatch" 
-                    style={{ filter: 'blur(5px)', height: '100%', objectFit: 'contain', width: '100%' }} 
-                    alt="" 
-                    aria-hidden="true" 
-                  />
-                </div>
-              </div>
+              >&nbsp;</div>
             </div>
           </section>
           
