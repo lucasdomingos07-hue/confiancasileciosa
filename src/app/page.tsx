@@ -48,7 +48,9 @@ export default function UpsellPage() {
     });
 
     return () => {
-      document.head.removeChild(script);
+      if (document.head.contains(script)) {
+        document.head.removeChild(script);
+      }
     }
   }, []);
 
@@ -101,10 +103,8 @@ export default function UpsellPage() {
             <section className="my-8 transition-opacity duration-500 ease-in-out opacity-100">
                <Card className="w-full max-w-2xl mx-auto overflow-hidden shadow-lg bg-card/50 border-primary/20">
                 <CardContent className="p-6">
-                  <p className="text-center text-foreground/90">
-                    "O programa Confiança Silenciosa foi criado para
-                    garantir ainda mais o poder de usar frases e 
-                    comportamentos para atrair qualquer homem."
+                  <p className="text-center text-foreground/90 font-bold">
+                    "Confiança Silenciosa foi criado para garantir ainda mais o poder de usar frases e comportamentos para atrair qualquer homem."
                   </p>
                 </CardContent>
               </Card>
