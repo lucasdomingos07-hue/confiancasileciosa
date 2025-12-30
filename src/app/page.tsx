@@ -113,7 +113,7 @@ export default function UpsellPage() {
                <Card className="w-full max-w-2xl mx-auto overflow-hidden shadow-lg bg-card/50 border-primary/20">
                 <CardContent className="p-6">
                   <p className="text-center text-foreground/90 font-bold">
-                    "Confiança Silenciosa foi criado para garantir ainda mais o poder de usar frases e comportamentos para atrair qualquer homem."
+                    Confiança Silenciosa foi criado para garantir ainda mais o poder de usar frases e comportamentos para atrair qualquer homem.
                   </p>
                 </CardContent>
               </Card>
@@ -141,9 +141,9 @@ export default function UpsellPage() {
           <footer className="text-center mt-16 text-xs text-muted-foreground">
               <p>Confiança Silenciosa &copy; {new Date().getFullYear()}. Todos os direitos reservados.</p>
               <div className="mt-2 space-x-4">
-                  <a href="#" className="hover:underline">Termos de Uso</a>
+                  <span>Termos de Uso</span>
                   <span>&bull;</span>
-                  <a href="#" className="hover:underline">Política de Privacidade</a>
+                  <span>Política de Privacidade</span>
               </div>
           </footer>
         </div>
