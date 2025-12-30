@@ -51,7 +51,7 @@ export default function UpsellPage() {
           </section>
           
           <div className="text-center my-8">
-            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white font-bold text-xl py-8 px-12 animate-subtle-scale shadow-lg">
+            <Button size="lg" className="bg-destructive hover:bg-destructive/90 text-white font-bold text-xl py-8 px-12 animate-subtle-scale shadow-lg">
               Aceitar oferta agora
             </Button>
           </div>
