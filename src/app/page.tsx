@@ -56,7 +56,6 @@ export default function UpsellPage() {
             <Card className="w-full overflow-hidden shadow-lg bg-card/50 border-primary/20">
               <CardContent className="p-6">
                 <div className="space-y-6">
-                  <h3 className="text-2xl font-semibold text-center">O que você recebe no Acesso Premium:</h3>
                   <ul className="space-y-4 max-w-md mx-auto">
                     {benefits.map((benefit, index) => (
                       <li key={index} className="flex items-start gap-3">
