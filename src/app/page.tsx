@@ -31,17 +31,17 @@ export default function UpsellPage() {
                 <Image 
                   src="https://i.imgur.com/EhUv9ej.png" 
                   alt="Chat finalizado" 
-                  width={100} 
-                  height={19} 
+                  width={60} 
+                  height={11} 
                   className="mx-auto" 
                 />
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold font-headline tracking-tight text-foreground">
-              Parabéns, seu cadastro está sendo finalizado.
+            <h1 className="text-4xl md:text-5xl font-headline tracking-tight text-foreground">
+              Parabéns, seu cadastro<br/>está sendo finalizado.
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground font-body">
-              Para acessar o material, assista ao vídeo de 1 minuto 👇🏼
+              Para acessar o material,<br/>assista ao vídeo de 1 minuto 👇🏼
             </h2>
           </header>
 
