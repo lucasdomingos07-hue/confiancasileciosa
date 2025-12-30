@@ -31,8 +31,8 @@ export default function UpsellPage() {
                 <Image 
                   src="https://i.imgur.com/EhUv9ej.png" 
                   alt="Chat finalizado" 
-                  width={200} 
-                  height={37} 
+                  width={180} 
+                  height={33} 
                   className="mx-auto" 
                 />
               </div>
