@@ -1,16 +1,44 @@
+"use client";
+
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import { CheckCircle, ShieldCheck, Zap } from 'lucide-react';
 import Head from 'next/head';
 import { Progress } from '@/components/ui/progress';
+import { useState, useEffect } from 'react';
+
+declare global {
+  interface Window {
+    _wq: any[];
+    Wistia: any;
+  }
+}
 
 export default function UpsellPage() {
+  const [showButton, setShowButton] = useState(false);
+
   const benefits = [
     { icon: Zap, text: "Acesso imediato e vitalício a todo o conteúdo." },
     { icon: CheckCircle, text: "Garantia de satisfação de 7 dias ou seu dinheiro de volta." },
     { icon: ShieldCheck, text: "Plataforma 100% segura e com suporte dedicado." },
   ];
+
+  useEffect(() => {
+    window._wq = window._wq || [];
+    window._wq.push({
+      id: "7ld00usp25",
+      onReady: (video: any) => {
+        let buttonShown = false;
+        video.bind("timechange", (t: number) => {
+          if (!buttonShown && t >= 44) {
+            setShowButton(true);
+            buttonShown = true; 
+          }
+        });
+      }
+    });
+  }, []);
 
   return (
     <>
@@ -42,14 +70,31 @@ export default function UpsellPage() {
 
           <section className="my-8">
             <div className="w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-border">
-              <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/7ld00usp25.js" async type="module"></script><style>{`wistia-player[media-id='7ld00usp25']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/7ld00usp25/swatch'); display: block; filter: blur(5px); padding-top:177.78%; }`}</style> <wistia-player media-id="7ld00usp25" aspect="0.5625"></wistia-player>
+              <div 
+                className="wistia_embed wistia_async_7ld00usp25 videoFoam=true" 
+                style={{ height: '100%', position: 'relative', width: '100%' }}
+              >
+                <div 
+                  className="wistia_swatch" 
+                  style={{ height: '100%', left: 0, opacity: 0, overflow: 'hidden', position: 'absolute', top: 0, transition: 'opacity 200ms', width: '100%' }}
+                >
+                  <img 
+                    src="https://fast.wistia.com/embed/medias/7ld00usp25/swatch" 
+                    style={{ filter: 'blur(5px)', height: '100%', objectFit: 'contain', width: '100%' }} 
+                    alt="" 
+                    aria-hidden="true" 
+                  />
+                </div>
+              </div>
             </div>
           </section>
           
-          <div className="text-center my-8">
-            <Button size="lg" variant="destructive" className="font-bold text-xl py-8 px-12 animate-subtle-scale shadow-lg">
-              Aceitar oferta agora
-            </Button>
+          <div className="text-center my-8 h-20">
+            {showButton && (
+              <Button size="lg" variant="destructive" className="font-bold text-xl py-8 px-12 animate-subtle-scale shadow-lg">
+                Aceitar oferta agora
+              </Button>
+            )}
           </div>
 
           <section className="my-12">
