@@ -38,7 +38,7 @@ export default function UpsellPage() {
       onReady: (video: any) => {
         let buttonShown = false;
         video.bind("timechange", (t: number) => {
-          if (!buttonShown && t >= 44) {
+          if (!buttonShown && t >= 42) {
             setShowButton(true);
             buttonShown = true; 
           }
@@ -56,18 +56,6 @@ export default function UpsellPage() {
       <main className="flex min-h-screen flex-col items-center justify-start p-4 md:p-8 lg:p-12">
         <div className="w-full max-w-5xl mx-auto">
           <header className="text-center mb-8">
-            <div className="mb-8 max-w-lg mx-auto">
-              <Progress value={90} indicatorClassName="bg-destructive" />
-              <div className="mt-4">
-                <Image 
-                  src="https://i.imgur.com/EhUv9ej.png" 
-                  alt="Chat finalizado" 
-                  width={60} 
-                  height={11} 
-                  className="mx-auto" 
-                />
-              </div>
-            </div>
             <h1 className="text-4xl md:text-5xl font-headline tracking-tight text-foreground">
               Parabéns, seu cadastro<br/>está sendo finalizado..
             </h1>
