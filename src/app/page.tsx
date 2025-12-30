@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { CheckCircle, ShieldCheck, Zap } from 'lucide-react';
-import Head from 'next/head';
 import { Progress } from '@/components/ui/progress';
 import { useState, useEffect } from 'react';
 
@@ -59,21 +58,21 @@ export default function UpsellPage() {
         <div className="w-full max-w-5xl mx-auto">
           
           <div className="w-full max-w-lg mx-auto mb-8">
-            <Progress value={93} className="h-2" />
+            <Progress value={93} className="h-2" indicatorClassName="bg-destructive" />
           </div>
 
           <div className="mb-8 flex justify-center">
             <Image 
               src="https://i.imgur.com/EhUv9ej.png" 
               alt="Logo" 
-              width={200} 
-              height={50}
+              width={160} 
+              height={40}
               objectFit="contain"
             />
           </div>
 
           <header className="text-center mb-8">
-            <h1 className="text-4xl md:text-5xl font-headline tracking-tight text-foreground">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground">
               Parabéns, seu cadastro<br/>está sendo finalizado...
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground font-body">
@@ -92,8 +91,8 @@ export default function UpsellPage() {
           
           <div className="text-center my-8 h-20">
             {showButton && (
-              <Button size="lg" variant="destructive" className="font-bold text-xl py-8 px-12 animate-subtle-scale shadow-lg">
-                ACEITAR OFERTA AGORA
+              <Button size="lg" variant="destructive" className="uppercase font-bold text-xl py-8 px-12 animate-subtle-scale shadow-lg">
+                Aceitar oferta agora
               </Button>
             )}
           </div>
