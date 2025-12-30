@@ -40,7 +40,7 @@ export default function UpsellPage() {
               Parabéns, seu cadastro<br/>está sendo finalizado..
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground font-body">
-              Para acessar o material,<br/>assista ao vídeo de 1 minuto 👇🏼
+              Antes de acessar o material,<br/>assista ao vídeo de 1 minuto 👇🏼
             </h2>
           </header>
 
