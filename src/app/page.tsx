@@ -74,7 +74,7 @@ export default function UpsellPage() {
           </div>
 
           <header className="text-center mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground">
+            <h1 className="text-3xl md:text-4xl tracking-tight text-foreground">
               Parabéns, seu cadastro<br/>está sendo finalizado...
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground font-body">
