@@ -139,7 +139,7 @@ export default function UpsellPage() {
           </section>
           
           <footer className="text-center mt-16 text-xs text-muted-foreground">
-              <p>ApexUpsell &copy; {new Date().getFullYear()}. Todos os direitos reservados.</p>
+              <p>Confiança Silenciosa &copy; {new Date().getFullYear()}. Todos os direitos reservados.</p>
               <div className="mt-2 space-x-4">
                   <a href="#" className="hover:underline">Termos de Uso</a>
                   <span>&bull;</span>
