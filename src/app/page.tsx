@@ -2,14 +2,10 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { CheckCircle, ShieldCheck, Zap } from 'lucide-react';
-import CountdownTimer from '@/components/countdown-timer';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Head from 'next/head';
 import { Progress } from '@/components/ui/progress';
 
 export default function UpsellPage() {
-  const expiryTime = new Date().getTime() + 15 * 60 * 1000; // 15 minutes from now
-
   const benefits = [
     { icon: Zap, text: "Acesso imediato e vitalício a todo o conteúdo." },
     { icon: CheckCircle, text: "Garantia de satisfação de 7 dias ou seu dinheiro de volta." },
@@ -51,12 +47,10 @@ export default function UpsellPage() {
           </section>
           
           <div className="text-center my-8">
-            <Button size="lg" className="bg-destructive hover:bg-destructive/90 text-white font-bold text-xl py-8 px-12 animate-subtle-scale shadow-lg">
+            <Button size="lg" variant="destructive" className="font-bold text-xl py-8 px-12 animate-subtle-scale shadow-lg">
               Aceitar oferta agora
             </Button>
           </div>
-
-          <CountdownTimer expiryTimestamp={expiryTime} />
 
           <section className="my-12">
             <Card className="w-full overflow-hidden shadow-lg bg-card/50 border-primary/20">
