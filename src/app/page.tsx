@@ -62,8 +62,8 @@ export default function UpsellPage() {
             <Image 
               src="https://i.imgur.com/EhUv9ej.png" 
               alt="Logo" 
-              width={60} 
-              height={15}
+              width={50} 
+              height={12}
               objectFit="contain"
             />
           </div>
@@ -78,7 +78,7 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-8">
-            <div className="w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-border">
+            <div className="w-full max-w-2xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-border">
               <div 
                 className="wistia_embed wistia_async_7ld00usp25 videoFoam=true" 
                 style={{ height: '100%', position: 'relative', width: '100%' }}
