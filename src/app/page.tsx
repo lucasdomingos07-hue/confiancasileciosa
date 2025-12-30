@@ -9,8 +9,6 @@ import Head from 'next/head';
 export default function UpsellPage() {
   const expiryTime = new Date().getTime() + 15 * 60 * 1000; // 15 minutes from now
 
-  const upsellImage = PlaceHolderImages.find(p => p.id === 'upsell-product');
-
   const benefits = [
     { icon: Zap, text: "Acesso imediato e vitalício a todo o conteúdo." },
     { icon: CheckCircle, text: "Garantia de satisfação de 7 dias ou seu dinheiro de volta." },
@@ -59,13 +57,6 @@ export default function UpsellPage() {
             </Card>
           </section>
           
-          <section className="text-center my-12">
-            <Button size="lg" className="w-full max-w-lg h-16 text-xl font-bold animate-subtle-scale shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-shadow duration-300">
-                QUERO GARANTIR MEU ACESSO COM DESCONTO!
-            </Button>
-            <p className="text-sm text-muted-foreground mt-4">Clique no botão para finalizar a compra em ambiente seguro.</p>
-          </section>
-
           <footer className="text-center mt-16 text-xs text-muted-foreground">
               <p>ApexUpsell &copy; {new Date().getFullYear()}. Todos os direitos reservados.</p>
               <div className="mt-2 space-x-4">
