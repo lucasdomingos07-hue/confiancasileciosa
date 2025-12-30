@@ -15,6 +15,7 @@ declare global {
 }
 
 export default function UpsellPage() {
+  const [showOffer, setShowOffer] = useState(false);
 
   const benefits = [
     { icon: Zap, text: "Acesso imediato e vitalício a todo o conteúdo." },
@@ -23,7 +24,19 @@ export default function UpsellPage() {
   ];
 
   useEffect(() => {
-    // Adiciona o script da Wistia ao head
+    window._wq = window._wq || [];
+    window._wq.push({
+      id: "7ld00usp25",
+      onReady: function(video: any) {
+        video.bind("timechange", function(t: number) {
+          if (t >= 42) {
+            setShowOffer(true);
+            video.unbind("timechange");
+          }
+        });
+      }
+    });
+
     const script = document.createElement('script');
     script.src = "https://fast.wistia.com/assets/external/E-v1.js";
     script.async = true;
@@ -56,7 +69,7 @@ export default function UpsellPage() {
           </div>
 
           <header className="text-center mb-8">
-            <h1 className="text-3xl md:text-4xl tracking-tight text-foreground">
+            <h1 className="text-3xl md:text-4xl tracking-tight text-foreground font-normal">
               Parabéns, seu cadastro<br/>está sendo finalizado...
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground font-body">
@@ -74,10 +87,11 @@ export default function UpsellPage() {
           </section>
           
           <div className="text-center my-8 min-h-[110px]">
+            {showOffer && (
               <>
                 <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true">
                   <Button size="lg" variant="destructive" className="uppercase font-bold text-xl py-8 px-12 animate-subtle-scale shadow-lg">
-                    Aceitar oferta agora
+                    ACEITAR OFERTA AGORA
                   </Button>
                 </a>
                 <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true">
@@ -86,8 +100,10 @@ export default function UpsellPage() {
                   </p>
                 </a>
               </>
+            )}
           </div>
           
+          {showOffer && (
             <section className="my-8 transition-opacity duration-500 ease-in-out opacity-100">
                <Card className="w-full max-w-2xl mx-auto overflow-hidden shadow-lg bg-card/50 border-primary/20">
                 <CardContent className="p-6">
@@ -97,7 +113,7 @@ export default function UpsellPage() {
                 </CardContent>
               </Card>
             </section>
-
+          )}
 
           <section className="my-12">
             <Card className="w-full overflow-hidden shadow-lg bg-card/50 border-primary/20">
