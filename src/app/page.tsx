@@ -94,12 +94,16 @@ export default function UpsellPage() {
           <div className="text-center my-8 min-h-[110px]">
             {showButton && (
               <>
-                <Button size="lg" variant="destructive" className="uppercase font-bold text-xl py-8 px-12 animate-subtle-scale shadow-lg">
-                  Aceitar oferta agora
-                </Button>
-                <p className="mt-4 text-sm underline text-muted-foreground cursor-pointer">
-                  Não, obrigado
-                </p>
+                <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true">
+                  <Button size="lg" variant="destructive" className="uppercase font-bold text-xl py-8 px-12 animate-subtle-scale shadow-lg">
+                    Aceitar oferta agora
+                  </Button>
+                </a>
+                <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true">
+                  <p className="mt-4 text-sm underline text-muted-foreground cursor-pointer">
+                    Não, obrigado
+                  </p>
+                </a>
               </>
             )}
           </div>
