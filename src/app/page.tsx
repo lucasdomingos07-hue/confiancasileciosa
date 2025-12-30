@@ -15,8 +15,6 @@ declare global {
 }
 
 export default function UpsellPage() {
-  const [showButton, setShowButton] = useState(false);
-  const [showPopup, setShowPopup] = useState(false);
 
   const benefits = [
     { icon: Zap, text: "Acesso imediato e vitalício a todo o conteúdo." },
@@ -30,22 +28,6 @@ export default function UpsellPage() {
     script.src = "https://fast.wistia.com/assets/external/E-v1.js";
     script.async = true;
     document.head.appendChild(script);
-
-    // Inicializa o player e os eventos
-    window._wq = window._wq || [];
-    window._wq.push({
-      id: "7ld00usp25",
-      onReady: (video: any) => {
-        let offerShown = false;
-        video.bind("timechange", (t: number) => {
-          if (!offerShown && t >= 42) {
-            setShowButton(true);
-            setShowPopup(true);
-            offerShown = true; 
-          }
-        });
-      }
-    });
 
     return () => {
       if (document.head.contains(script)) {
@@ -92,7 +74,6 @@ export default function UpsellPage() {
           </section>
           
           <div className="text-center my-8 min-h-[110px]">
-            {showButton && (
               <>
                 <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true">
                   <Button size="lg" variant="destructive" className="uppercase font-bold text-xl py-8 px-12 animate-subtle-scale shadow-lg">
@@ -105,10 +86,8 @@ export default function UpsellPage() {
                   </p>
                 </a>
               </>
-            )}
           </div>
           
-          {showPopup && (
             <section className="my-8 transition-opacity duration-500 ease-in-out opacity-100">
                <Card className="w-full max-w-2xl mx-auto overflow-hidden shadow-lg bg-card/50 border-primary/20">
                 <CardContent className="p-6">
@@ -118,7 +97,6 @@ export default function UpsellPage() {
                 </CardContent>
               </Card>
             </section>
-          )}
 
 
           <section className="my-12">
