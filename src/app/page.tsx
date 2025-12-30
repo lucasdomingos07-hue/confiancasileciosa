@@ -17,6 +17,7 @@ declare global {
 
 export default function UpsellPage() {
   const [showButton, setShowButton] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
 
   const benefits = [
     { icon: Zap, text: "Acesso imediato e vitalício a todo o conteúdo." },
@@ -36,11 +37,12 @@ export default function UpsellPage() {
     window._wq.push({
       id: "7ld00usp25",
       onReady: (video: any) => {
-        let buttonShown = false;
+        let offerShown = false;
         video.bind("timechange", (t: number) => {
-          if (!buttonShown && t >= 42) {
+          if (!offerShown && t >= 42) {
             setShowButton(true);
-            buttonShown = true; 
+            setShowPopup(true);
+            offerShown = true; 
           }
         });
       }
@@ -57,7 +59,7 @@ export default function UpsellPage() {
         <div className="w-full max-w-5xl mx-auto">
           <header className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-headline tracking-tight text-foreground">
-              Parabéns, seu cadastro<br/>está sendo finalizado..
+              Parabéns, seu cadastro<br/>está sendo finalizado...
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground font-body">
               Antes de acessar o material,<br/>assista ao vídeo de 1 minuto 👇🏼
@@ -80,6 +82,21 @@ export default function UpsellPage() {
               </Button>
             )}
           </div>
+          
+          {showPopup && (
+            <section className="my-8 transition-opacity duration-500 ease-in-out opacity-100">
+               <Card className="w-full max-w-2xl mx-auto overflow-hidden shadow-lg bg-card/50 border-primary/20">
+                <CardContent className="p-6">
+                  <p className="text-center text-foreground/90">
+                    "O programa Confiança Silenciosa foi criado para
+                    garantir ainda mais o poder de usar frases e 
+                    comportamentos para atrair qualquer homem."
+                  </p>
+                </CardContent>
+              </Card>
+            </section>
+          )}
+
 
           <section className="my-12">
             <Card className="w-full overflow-hidden shadow-lg bg-card/50 border-primary/20">
