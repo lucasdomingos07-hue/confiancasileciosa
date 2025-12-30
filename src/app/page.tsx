@@ -23,6 +23,15 @@ export default function UpsellPage() {
       <main className="flex min-h-screen flex-col items-center justify-start p-4 md:p-8 lg:p-12">
         <div className="w-full max-w-5xl mx-auto">
           <header className="text-center mb-8">
+            <div className="mb-8">
+              <Image 
+                src="https://i.imgur.com/EhUv9ej.png" 
+                alt="Chat finalizado" 
+                width={800} 
+                height={150} 
+                className="mx-auto" 
+              />
+            </div>
             <h1 className="text-4xl md:text-5xl font-bold font-headline tracking-tight text-foreground">
               Parabéns, seu cadastro está sendo finalizado.
             </h1>
