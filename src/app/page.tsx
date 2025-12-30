@@ -62,8 +62,8 @@ export default function UpsellPage() {
             <Image 
               src="https://i.imgur.com/EhUv9ej.png" 
               alt="Logo" 
-              width={120} 
-              height={30}
+              width={100} 
+              height={25}
               objectFit="contain"
             />
           </div>
