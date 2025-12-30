@@ -38,7 +38,7 @@ export default function UpsellPage() {
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl font-headline tracking-tight text-foreground">
-              Parabéns, seu cadastro<br/>está sendo finalizado.
+              Parabéns, seu cadastro<br/>está sendo finalizado..
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground font-body">
               Para acessar o material,<br/>assista ao vídeo de 1 minuto 👇🏼
