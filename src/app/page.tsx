@@ -35,16 +35,7 @@ export default function UpsellPage() {
 
           <section className="my-8">
             <div className="w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-border">
-              <script src="https://fast.wistia.com/embed/7ld00usp25.js" async type="module"></script>
-              <style>{`
-                wistia-player[media-id='7ld00usp25']:not(:defined) { 
-                  background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/7ld00usp25/swatch'); 
-                  display: block; 
-                  filter: blur(5px); 
-                  padding-top:177.78%; 
-                }
-              `}</style>
-              <wistia-player media-id="7ld00usp25" aspect="0.5625"></wistia-player>
+              <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/7ld00usp25.js" async type="module"></script><style>{`wistia-player[media-id='7ld00usp25']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/7ld00usp25/swatch'); display: block; filter: blur(5px); padding-top:177.78%; }`}</style> <wistia-player media-id="7ld00usp25" aspect="0.5625"></wistia-player>
             </div>
           </section>
           
@@ -52,48 +43,27 @@ export default function UpsellPage() {
 
           <section className="my-12">
             <Card className="w-full overflow-hidden shadow-lg bg-card/50 border-primary/20">
-              <CardHeader className="text-center">
-                <CardTitle className="text-3xl font-bold text-primary">OFERTA ESPECIAL E ÚNICA</CardTitle>
-                <CardDescription className="text-base">Adquira o Acesso Premium por um preço que não se repetirá.</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="grid md:grid-cols-2 gap-8 items-center">
-                  <div className="relative aspect-square md:aspect-[4/3] w-full rounded-lg overflow-hidden">
-                    {upsellImage && (
-                      <Image
-                        src={upsellImage.imageUrl}
-                        alt={upsellImage.description}
-                        fill
-                        className="object-cover"
-                        data-ai-hint={upsellImage.imageHint}
-                      />
-                    )}
-                  </div>
-                  <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold">O que você recebe no Acesso Premium:</h3>
-                    <ul className="space-y-4">
-                      {benefits.map((benefit, index) => (
-                        <li key={index} className="flex items-start gap-3">
-                          <benefit.icon className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                          <span className="text-foreground/90">{benefit.text}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+              <CardContent className="p-6">
+                <div className="space-y-6">
+                  <h3 className="text-2xl font-semibold text-center">O que você recebe no Acesso Premium:</h3>
+                  <ul className="space-y-4 max-w-md mx-auto">
+                    {benefits.map((benefit, index) => (
+                      <li key={index} className="flex items-start gap-3">
+                        <benefit.icon className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                        <span className="text-foreground/90">{benefit.text}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </CardContent>
             </Card>
           </section>
           
-          <section className="text-center my-12 p-8 bg-card rounded-2xl shadow-lg border border-border">
-              <p className="text-xl text-muted-foreground line-through">De <span className="font-semibold">R$297,00</span></p>
-              <p className="text-2xl mt-2">Por apenas 12x de</p>
-              <p className="text-7xl font-bold text-primary my-2 font-mono">R$19,70</p>
-              <p className="text-muted-foreground">(ou R$197,00 à vista)</p>
-              <Button size="lg" className="mt-8 w-full max-w-lg h-16 text-xl font-bold animate-subtle-scale shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-shadow duration-300">
-                  QUERO GARANTIR MEU ACESSO COM DESCONTO!
-              </Button>
-              <p className="text-sm text-muted-foreground mt-4">Clique no botão para finalizar a compra em ambiente seguro.</p>
+          <section className="text-center my-12">
+            <Button size="lg" className="w-full max-w-lg h-16 text-xl font-bold animate-subtle-scale shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-shadow duration-300">
+                QUERO GARANTIR MEU ACESSO COM DESCONTO!
+            </Button>
+            <p className="text-sm text-muted-foreground mt-4">Clique no botão para finalizar a compra em ambiente seguro.</p>
           </section>
 
           <footer className="text-center mt-16 text-xs text-muted-foreground">
