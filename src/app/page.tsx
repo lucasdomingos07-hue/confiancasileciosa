@@ -76,7 +76,7 @@ export default function UpsellPage() {
           <div className="text-center my-8 h-20">
             {showButton && (
               <Button size="lg" variant="destructive" className="font-bold text-xl py-8 px-12 animate-subtle-scale shadow-lg">
-                Aceitar oferta agora
+                ACEITAR OFERTA AGORA
               </Button>
             )}
           </div>
