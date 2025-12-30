@@ -25,7 +25,6 @@ export default function UpsellPage() {
         <div className="w-full max-w-5xl mx-auto">
           <header className="text-center mb-8">
             <div className="mb-8 max-w-lg mx-auto">
-              <p className="text-sm text-muted-foreground mb-2">Seu cadastro está quase concluído...</p>
               <Progress value={90} indicatorClassName="bg-destructive" />
               <div className="mt-4">
                 <Image 
