@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { CheckCircle, ShieldCheck, Zap } from 'lucide-react';
-import { Progress } from '@/components/ui/progress';
 import { useState, useEffect } from 'react';
 
 declare global {
@@ -59,7 +58,7 @@ export default function UpsellPage() {
               Parabéns, seu cadastro<br/>está sendo finalizado...
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground font-body">
-              Antes de acessar o material,<br/>assista ao vídeo de 1 minuto 👇🏼
+              Antes de acessar o material,<br/>descubra como aumentar em até<br/>5x mais o poder das Frases Secretas 👇🏼
             </h2>
           </header>
 
