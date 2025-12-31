@@ -1,6 +1,5 @@
 "use client";
 
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { CheckCircle, ShieldCheck, Zap } from 'lucide-react';
@@ -93,7 +92,10 @@ export default function UpsellPage() {
                <Card className="w-full max-w-2xl mx-auto overflow-hidden shadow-lg bg-card/50 border-primary/20">
                 <CardContent className="p-6">
                   <p className="text-center text-foreground/90 font-bold">
-                    Confiança Silenciosa foi criado para garantir ainda mais o poder de usar frases e comportamentos para atrair qualquer homem.
+                    Confiança Silenciosa foi criado para<br/>
+                    impulsionar ainda mais o poder de usar frases<br/>
+                    para atrair qualquer homem, combinando<br/>
+                    palavras com comportamentos.
                   </p>
                 </CardContent>
               </Card>
