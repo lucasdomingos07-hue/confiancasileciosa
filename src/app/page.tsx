@@ -54,7 +54,7 @@ export default function UpsellPage() {
           
           <header className="text-center mb-8 mt-4">
             <h1 className="text-3xl md:text-4xl tracking-tight text-foreground">
-              Parabéns, seu cadastro<br/>está sendo finalizado...
+              <span className="font-bold">Parabéns</span>, seu cadastro<br/>está sendo finalizado...
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground font-body">
               Antes de acessar o material,<br/>descubra como aumentar em até<br/>5x mais o poder das Frases Secretas 👇🏼
@@ -62,7 +62,7 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-8">
-            <div className="w-full max-w-2xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-border">
+            <div className="w-full max-w-lg mx-auto rounded-2xl overflow-hidden shadow-2xl border border-border">
               <div 
                 className="wistia_embed wistia_async_7ld00usp25 videoFoam=true" 
                 style={{ height: '100%', position: 'relative', width: '100%' }}
