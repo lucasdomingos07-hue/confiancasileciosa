@@ -53,7 +53,7 @@ export default function UpsellPage() {
         <div className="w-full max-w-5xl mx-auto">
           
           <header className="text-center mb-8 mt-4">
-            <h1 className="text-3xl md:text-4xl tracking-tight text-foreground font-normal">
+            <h1 className="text-3xl md:text-4xl tracking-tight text-foreground font-bold">
               Parabéns, seu cadastro<br/>está sendo finalizado...
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground font-body">
@@ -91,7 +91,7 @@ export default function UpsellPage() {
             <section className="my-8 transition-opacity duration-500 ease-in-out opacity-100">
                <Card className="w-full max-w-2xl mx-auto overflow-hidden shadow-lg bg-card/50 border-primary/20">
                 <CardContent className="p-6">
-                  <p className="text-center text-foreground/90 font-bold">
+                  <p className="text-center text-foreground/90 text-sm">
                     Confiança Silenciosa foi criado para<br/>
                     impulsionar ainda mais o poder de usar frases<br/>
                     para atrair qualquer homem, combinando<br/>
