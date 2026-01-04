@@ -2,14 +2,19 @@
 
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import { Progress } from "@/components/ui/progress";
 
 export default function UpsellPage() {
   return (
     <>
       <main className="flex min-h-screen flex-col items-center justify-start p-4 md:p-8 lg:p-12 font-body text-foreground">
         <div className="w-full max-w-2xl mx-auto text-center">
+
+          <div className="w-full max-w-md mx-auto my-8">
+            <Progress value={97} />
+          </div>
           
-          <header className="text-center mb-8 mt-8">
+          <header className="text-center mb-8">
             <h1 className="text-3xl md:text-4xl tracking-tight font-bold">
               Seu acesso está<br/>quase liberado.
             </h1>
