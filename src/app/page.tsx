@@ -33,7 +33,9 @@ export default function UpsellPage() {
 
             <p>Muitas mulheres dizem a frase certa… mas sentem que o efeito não é o mesmo.</p>
             
-            <p>O problema não está no texto. Está na ansiedade, no medo de errar e na vontade de agradar.</p>
+            <p>
+              <b>O problema não está no texto.</b> Está na ansiedade, no medo de errar e na vontade de agradar.
+            </p>
 
             <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
 
@@ -50,7 +52,8 @@ export default function UpsellPage() {
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
               <div>
-                <p className="text-2xl md:text-3xl font-bold">Por apenas R$ 37,00,<br/>Você vai potencializar<br/>ainda mais as Frases Secretas</p>
+                <p className="text-2xl md:text-3xl font-bold">Por apenas R$ 37,00</p>
+                <p className="text-2xl md:text-3xl">Você vai potencializar<br/>ainda mais as Frases Secretas</p>
               </div>
               <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={400} height={200} className="mx-auto rounded-md my-4" />
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
