@@ -32,9 +32,9 @@ export default function UpsellPage() {
 
             <p>Muitas mulheres dizem a frase certa…<br/>mas sentem que o efeito não é o mesmo.</p>
             
-            <p>O problema não está no texto. Está na ansiedade, no medo de errar e na vontade de agradar.</p>
+            <p><span className="font-bold">O problema não está no texto.</span> Está na ansiedade, no medo de errar e na vontade de agradar.</p>
 
-            <p>E isso é percebido<br/>mesmo quando nada é dito.</p>
+            <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
 
             <div className="py-8">
               <p className="text-xl md:text-2xl font-semibold text-foreground">
