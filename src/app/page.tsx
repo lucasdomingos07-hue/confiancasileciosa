@@ -52,8 +52,8 @@ export default function UpsellPage() {
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
               <div>
-                <p className="text-2xl md:text-3xl font-bold">Por apenas R$ 37,00</p>
-                <p className="text-2xl md:text-3xl">Você vai potencializar<br/>em até 5x mais o efeito<br/>das Frases Secretas</p>
+                <p className="text-2xl md:text-3xl font-bold text-green-500">Por apenas R$ 37,00</p>
+                <p className="text-2xl md:text-3xl">Você vai potencializar<br/>em até <span className="font-bold text-green-500">5x mais</span> o efeito<br/>das Frases Secretas</p>
               </div>
               <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={400} height={200} className="mx-auto rounded-md my-4" />
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
