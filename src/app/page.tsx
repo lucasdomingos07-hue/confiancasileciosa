@@ -49,7 +49,7 @@ export default function UpsellPage() {
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
               <div>
-                <p className="text-2xl md:text-3xl font-bold">Por apenas R$ 37,00,<br/>você pode dar esse próximo passo agora.</p>
+                <p className="text-2xl md:text-3xl font-bold">Por apenas R$ 37,00,<br/>Você vai potencializar<br/>ainda mais as Frases Secretas</p>
                 <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
               </div>
               <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true" className="block">
