@@ -28,14 +28,7 @@ export default function UpsellPage() {
 
             <p>Muitas mulheres dizem a frase certa…<br/>mas sentem que o efeito não é o mesmo.</p>
             
-            <div className="max-w-md mx-auto text-left space-y-2 text-muted-foreground italic">
-              <ul className="list-disc list-inside space-y-1">
-                <li>Não é o texto.</li>
-                <li>É a ansiedade.</li>
-                <li>É o medo de errar.</li>
-                <li>É a vontade de agradar.</li>
-              </ul>
-            </div>
+            <p>O problema não está no texto. Está na ansiedade, no medo de errar e na vontade de agradar.</p>
 
             <p>E isso é percebido — mesmo quando nada é dito.</p>
 
