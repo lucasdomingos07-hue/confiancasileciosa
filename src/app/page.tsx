@@ -11,7 +11,7 @@ export default function UpsellPage() {
           
           <header className="text-center mb-8 mt-8">
             <h1 className="text-3xl md:text-4xl tracking-tight font-bold">
-              Seu acesso está quase liberado.
+              Seu acesso está<br/>quase liberado.
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground">
               Antes de entrar, descubra<br/>o que faz as Frases Secretas<br/>funcionarem de verdade.
@@ -19,7 +19,8 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p>Você acabou de aprender o que dizer para despertar interesse.<br/>Mas existe algo ainda mais decisivo do que as palavras.</p>
+            <p>Você acabou de aprender o que dizer<br/>para despertar interesse.</p>
+            <p>Mas existe algo ainda mais<br/>decisivo do que as palavras.</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
               <p className="text-xl md:text-2xl font-semibold">👉 A postura emocional por trás delas.</p>
@@ -28,10 +29,12 @@ export default function UpsellPage() {
             <p>Muitas mulheres dizem a frase certa…<br/>mas sentem que o efeito não é o mesmo.</p>
             
             <div className="max-w-md mx-auto text-left space-y-2 text-muted-foreground italic">
-              <p>Não é o texto.</p>
-              <p>É a ansiedade.</p>
-              <p>É o medo de errar.</p>
-              <p>É a vontade de agradar.</p>
+              <ul className="list-none space-y-1">
+                <li>Não é o texto.</li>
+                <li>É a ansiedade.</li>
+                <li>É o medo de errar.</li>
+                <li>É a vontade de agradar.</li>
+              </ul>
             </div>
 
             <p>E isso é percebido — mesmo quando nada é dito.</p>
