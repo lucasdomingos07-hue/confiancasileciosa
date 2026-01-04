@@ -38,7 +38,7 @@ export default function UpsellPage() {
 
             <div className="py-8">
               <p className="text-xl md:text-2xl font-semibold text-foreground">
-                O <span className="text-destructive">Confiança Silenciosa</span> foi criado para te ensinar a sustentar <span className="font-bold">calma, presença e segurança emocional</span> — mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
+                O Confiança Silenciosa foi criado para te ensinar a sustentar<br />calma, presença e segurança emocional — mesmo quando<br />você gosta, mesmo quando sente vontade de responder no impulso.
               </p>
             </div>
 
