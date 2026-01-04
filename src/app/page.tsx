@@ -17,7 +17,7 @@ export default function UpsellPage() {
           
           <header className="text-center mb-8">
             <h1 className="text-3xl md:text-4xl tracking-tight font-bold">
-              Seu acesso está<br/>quase liberado ⏳
+              <span className="text-green-500">Seu acesso está<br/>quase liberado</span> ⏳
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground">
               Antes de entrar, descubra<br/>o que faz as Frases Secretas<br/>funcionarem de verdade.
