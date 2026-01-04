@@ -11,7 +11,7 @@ export default function UpsellPage() {
         <div className="w-full max-w-2xl mx-auto text-center">
 
           <div className="w-full max-w-md mx-auto my-8">
-            <Progress value={97} />
+            <Progress value={97} indicatorClassName="bg-green-500" />
           </div>
           
           <header className="text-center mb-8">
