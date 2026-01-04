@@ -40,8 +40,7 @@ export default function UpsellPage() {
 
             <p>Aqui, o foco não é falar mais.<br/><span className="font-bold">É se posicionar melhor.</span></p>
             
-            <p>Quando sua postura muda,<br/>a percepção muda.</p>
-            <p>E quando a percepção muda,<br/>o interesse acontece de forma natural —<br/>sem esforço, sem cobrança e sem exposição.</p>
+            <p>Quando sua postura muda,<br/>a percepção muda. E quando a<br/>percepção muda, o interesse<br/>acontece de forma natural</p>
           </section>
 
           <section className="my-12 p-6 bg-card border border-border rounded-2xl shadow-2xl">
