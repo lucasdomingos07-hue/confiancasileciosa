@@ -3,6 +3,7 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import { Progress } from "@/components/ui/progress";
+import Image from 'next/image';
 
 export default function UpsellPage() {
   return (
@@ -30,21 +31,21 @@ export default function UpsellPage() {
               <p className="text-xl md:text-2xl font-semibold">✅ A postura emocional<br/>por trás delas.</p>
             </div>
 
-            <p>Muitas mulheres dizem a frase certa…<br/>mas sentem que o efeito não é o mesmo.</p>
+            <p>Muitas mulheres dizem a frase certa… mas sentem que o efeito não é o mesmo.</p>
             
-            <p><span className="font-bold">O problema não está no texto.</span> Está na ansiedade, no medo de errar e na vontade de agradar.</p>
+            <p>O problema não está no texto. Está na ansiedade, no medo de errar e na vontade de agradar.</p>
 
             <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
 
             <div className="py-8">
               <p className="text-xl md:text-2xl font-semibold text-foreground">
-                O Confiança Silenciosa foi criado para te ensinar a sustentar<br />calma, presença e segurança emocional — mesmo quando<br />você gosta, mesmo quando sente vontade de responder no impulso.
+                O Confiança Silenciosa foi criado para te ensinar a sustentar calma, presença e segurança emocional — mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
               </p>
             </div>
 
-            <p>Aqui, o foco não é falar mais.<br/><span className="font-bold">É se posicionar melhor.</span></p>
+            <p>Aqui, o foco não é falar mais. É se posicionar melhor.</p>
             
-            <p>Quando sua postura muda,<br/>a percepção muda. E quando a<br/>percepção muda, o interesse<br/>acontece de forma natural</p>
+            <p>Quando sua postura muda, a percepção muda. E quando a percepção muda, o interesse acontece de forma natural</p>
           </section>
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
@@ -52,6 +53,7 @@ export default function UpsellPage() {
                 <p className="text-2xl md:text-3xl font-bold">Por apenas R$ 37,00,<br/>Você vai potencializar<br/>ainda mais as Frases Secretas</p>
                 <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
               </div>
+              <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={400} height={200} className="mx-auto rounded-md my-4" />
               <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true" className="block">
                 <Button size="lg" variant="destructive" className="uppercase font-bold text-xl py-8 px-10 animate-subtle-scale shadow-lg w-full max-w-lg">
                   <ArrowRight className="mr-2 h-6 w-6" /> ACEITAR ESSA OFERTA
