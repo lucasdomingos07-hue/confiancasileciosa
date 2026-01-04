@@ -24,7 +24,7 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p>Você acabou de aprender o que dizer<br/>para despertar interesse. Mas existe algo<br/>ainda mais decisivo do que as palavras.</p>
+            <p>Você acabou de aprender o que dizer para despertar interesse. Mas existe algo ainda mais decisivo do que as palavras.</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
               <p className="text-xl md:text-2xl font-semibold">✅ A postura emocional<br/>por trás delas.</p>
@@ -47,23 +47,22 @@ export default function UpsellPage() {
             <p>Quando sua postura muda,<br/>a percepção muda. E quando a<br/>percepção muda, o interesse<br/>acontece de forma natural</p>
           </section>
 
-          <section className="my-12 p-6 bg-card border border-border rounded-2xl shadow-2xl">
-              <p className="text-2xl md:text-3xl font-bold">Por apenas R$ 37,00,<br/>você pode dar esse próximo passo agora.</p>
-              <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
-          </section>
-          
-          <div className="text-center my-8">
-            <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true">
-              <Button size="lg" variant="destructive" className="uppercase font-bold text-xl py-8 px-10 animate-subtle-scale shadow-lg w-full max-w-lg">
-                <ArrowRight className="mr-2 h-6 w-6" /> SIM, QUERO DESENVOLVER MINHA CONFIANÇA SILENCIOSA
-              </Button>
-            </a>
+          <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
+              <div>
+                <p className="text-2xl md:text-3xl font-bold">Por apenas R$ 37,00,<br/>você pode dar esse próximo passo agora.</p>
+                <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
+              </div>
+              <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true" className="block">
+                <Button size="lg" variant="destructive" className="uppercase font-bold text-xl py-8 px-10 animate-subtle-scale shadow-lg w-full max-w-lg">
+                  <ArrowRight className="mr-2 h-6 w-6" /> ACEITAR ESSA OFERTA
+                </Button>
+              </a>
              <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true">
-              <p className="mt-4 text-sm underline text-muted-foreground cursor-pointer">
+              <p className="mt-2 text-sm underline text-muted-foreground cursor-pointer">
                 Não, obrigado
               </p>
             </a>
-          </div>
+          </section>
           
           <footer className="text-center mt-16 text-xs text-muted-foreground">
               <p>Confiança Silenciosa &copy; {new Date().getFullYear()}. Todos os direitos reservados.</p>
