@@ -40,8 +40,8 @@ export default function UpsellPage() {
             <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
 
             <div className="my-8 p-6 bg-card border border-border rounded-xl shadow-lg">
-              <p className="text-xl md:text-2xl text-foreground">
-                O Confiança Silenciosa foi criado para te ensinar a sustentar calma, presença e segurança emocional, mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
+              <p className="text-lg md:text-xl text-foreground">
+                O <b className="text-destructive">Confiança Silenciosa</b> foi criado para te ensinar a sustentar calma, presença e segurança emocional, mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
               </p>
             </div>
 
