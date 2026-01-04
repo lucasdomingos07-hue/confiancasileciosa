@@ -19,8 +19,7 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p>Você acabou de aprender o que dizer<br/>para despertar interesse.</p>
-            <p>Mas existe algo ainda mais<br/>decisivo do que as palavras.</p>
+            <p>Você acabou de aprender o que dizer<br/>para despertar interesse. Mas existe algo<br/>ainda mais decisivo do que as palavras.</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
               <p className="text-xl md:text-2xl font-semibold">👉 A postura emocional por trás delas.</p>
