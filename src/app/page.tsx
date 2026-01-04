@@ -29,7 +29,7 @@ export default function UpsellPage() {
             <p>Muitas mulheres dizem a frase certa…<br/>mas sentem que o efeito não é o mesmo.</p>
             
             <div className="max-w-md mx-auto text-left space-y-2 text-muted-foreground italic">
-              <ul className="list-none space-y-1">
+              <ul className="list-disc list-inside space-y-1">
                 <li>Não é o texto.</li>
                 <li>É a ansiedade.</li>
                 <li>É o medo de errar.</li>
