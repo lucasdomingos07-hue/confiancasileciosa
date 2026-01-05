@@ -36,7 +36,7 @@ export default function UpsellPage() {
             <p>Você acabou de aprender o que dizer para <b className="text-blue-500">despertar interesse</b>. Mas existe algo ainda mais decisivo do que as palavras:</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
-              <p className="text-xl md:text-2xl font-semibold">✅ Postura emocional<br/>por trás delas.</p>
+              <p className="text-xl md:text-2xl font-semibold">Postura emocional<br/>por trás delas.</p>
             </div>
 
             <p>Muitas mulheres dizem a frase certa… mas sentem que o poder não é o mesmo.</p>
@@ -75,7 +75,7 @@ export default function UpsellPage() {
                 <p>✔️ Mais interesse sem esforço</p>
               </div>
               
-              <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={400} height={200} className="mx-auto rounded-md my-4" />
+              <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={300} height={150} className="mx-auto rounded-md my-4" />
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
               
               <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true" className="block">
