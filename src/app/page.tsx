@@ -53,14 +53,14 @@ export default function UpsellPage() {
               </p>
             </div>
 
-            <p><b className="font-semibold">Aqui, o foco não é falar mais.</b><br/>É se posicionar melhor.</p>
+            <p><b>Aqui, o foco não é falar mais.</b><br/>É se posicionar melhor.</p>
             
             <p className="font-medium"><b>Quando sua postura muda, a percepção muda. E quando a percepção muda, o interesse acontece de forma natural.</b></p>
           </section>
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
               <div className="space-y-2">
-                <p className="text-3xl md:text-4xl font-bold uppercase text-green-500">APENAS HOJE 🔥</p>
+                <p className="text-3xl md:text-4xl font-bold uppercase text-green-500">APENAS HOJE!</p>
                  <p className="text-2xl md:text-3xl">
                   <span className="line-through">De R$ 97,00</span><br/>
                   <span className="font-bold">Por <span className="text-green-500">R$ 37,00</span></span>
