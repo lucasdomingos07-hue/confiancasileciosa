@@ -33,10 +33,10 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p>Você acabou de aprender o que dizer para <span className="text-blue-500">despertar interesse</span>. Mas existe algo ainda mais decisivo do que as palavras</p>
+            <p>Você acabou de aprender o que dizer para <span className="text-blue-500">despertar interesse</span>. Mas existe algo ainda mais decisivo do que as palavras:</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
-              <p className="text-xl md:text-2xl font-semibold">✅ A postura emocional<br/>por trás delas.</p>
+              <p className="text-xl md:text-2xl font-semibold">✅ Postura emocional<br/>por trás delas.</p>
             </div>
 
             <p>Muitas mulheres dizem a frase certa… mas sentem que o poder não é o mesmo.</p>
@@ -55,7 +55,7 @@ export default function UpsellPage() {
 
             <p><b className="font-semibold">Aqui, o foco não é falar mais.</b> É se posicionar melhor.</p>
             
-            <p className="font-medium">Quando sua postura muda, a percepção muda. E quando a percepção muda, o interesse acontece de forma natural.</p>
+            <p className="font-medium"><b>Quando sua postura muda, a percepção muda. E quando a percepção muda, o interesse acontece de forma natural.</b></p>
           </section>
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
@@ -65,8 +65,8 @@ export default function UpsellPage() {
                   <span className="line-through">De R$ 97,00</span><br/>
                   <span className="font-bold">Por <span className="text-green-500">R$ 37,00</span></span>
                 </p>
+                <p className="text-2xl md:text-3xl mt-4">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10X MAIS</span> o poder<br/>das Frases Secretas</p>
               </div>
-              <p className="text-2xl md:text-3xl mt-4">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10X MAIS</span> o poder<br/>das Frases Secretas</p>
               <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={400} height={200} className="mx-auto rounded-md my-4" />
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
               
