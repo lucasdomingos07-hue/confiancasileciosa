@@ -10,7 +10,7 @@ export default function UpsellPage() {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    const timer = setTimeout(() => setProgress(97), 1500);
+    const timer = setTimeout(() => setProgress(97), 2000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -42,7 +42,7 @@ export default function UpsellPage() {
             <p>Muitas mulheres dizem a frase certa… mas sentem que o poder não é o mesmo.</p>
             
             <p>
-              <span className="text-red-500">O problema não está no texto</span>. Está na ansiedade, no medo de errar e na vontade de agradar.
+              <b className="text-white">O problema não está no texto.</b> Está na <span className="text-red-500">ansiedade</span>, no <span className="text-red-500">medo de errar</span> e na <span className="text-red-500">vontade de agradar</span>.
             </p>
 
             <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
