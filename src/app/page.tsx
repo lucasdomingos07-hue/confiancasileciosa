@@ -10,7 +10,7 @@ export default function UpsellPage() {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    const timer = setTimeout(() => setProgress(97), 5000);
+    const timer = setTimeout(() => setProgress(97), 50000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -20,7 +20,7 @@ export default function UpsellPage() {
         <div className="w-full max-w-2xl mx-auto text-center">
 
           <div className="w-full max-w-md mx-auto my-8">
-            <Progress value={progress} indicatorClassName="bg-green-500 duration-[5000ms]" />
+            <Progress value={progress} indicatorClassName="bg-green-500 duration-[50000ms]" />
           </div>
           
           <header className="text-center mb-8">
@@ -42,7 +42,7 @@ export default function UpsellPage() {
             <p>Muitas mulheres dizem a frase certa… mas sentem que o poder não é o mesmo.</p>
             
             <p>
-              <b>O problema não está no texto. Está na <span className="text-red-500">ansiedade</span>, no <span className="text-red-500">medo de errar</span> e na <span className="text-red-500">vontade de agradar</span>.</b>
+              <b>O problema não está no texto. Está na <span className="text-red-500">ansiedade</span>, no <span className="text-red-500">medo de errar</span> e na <span className="text-red-500">vontade de agradar</span></b>
             </p>
 
             <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
@@ -60,7 +60,7 @@ export default function UpsellPage() {
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
               <div className="space-y-2">
-                <p className="text-3xl md:text-4xl font-bold uppercase text-green-500">APENAS HOJE 🔥</p>
+                <p className="text-4xl md:text-5xl font-bold uppercase text-green-500">APENAS HOJE 🔥</p>
                  <p className="text-2xl md:text-3xl">
                   <span className="line-through">De R$ 97,00</span><br/>
                   <span className="font-bold">Por <span className="text-green-500">R$ 37,00</span></span>
