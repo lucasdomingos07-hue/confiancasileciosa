@@ -10,7 +10,7 @@ export default function UpsellPage() {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    const timer = setTimeout(() => setProgress(97), 500);
+    const timer = setTimeout(() => setProgress(97), 1500);
     return () => clearTimeout(timer);
   }, []);
 
@@ -20,7 +20,7 @@ export default function UpsellPage() {
         <div className="w-full max-w-2xl mx-auto text-center">
 
           <div className="w-full max-w-md mx-auto my-8">
-            <Progress value={progress} indicatorClassName="bg-green-500" />
+            <Progress value={progress} indicatorClassName="bg-green-500 duration-[2000ms]" />
           </div>
           
           <header className="text-center mb-8">
@@ -48,27 +48,25 @@ export default function UpsellPage() {
             <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
 
             <div className="my-8 p-6 bg-card border border-border rounded-xl shadow-lg">
-              <p className="text-base text-foreground">
-                O <b className="text-green-500">Confiança Silenciosa</b> foi criado para te ensinar a sustentar calma, presença e segurança emocional.
+              <p className="text-base text-foreground/90">
+                O <b className="text-green-500">Confiança Silenciosa</b> foi criado para te ensinar a sustentar calma, presença e segurança emocional, mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
               </p>
             </div>
 
-            <p><b>Aqui, o foco não é falar mais.</b> É se posicionar melhor.</p>
+            <p><b className="font-semibold">Aqui, o foco não é falar mais.</b> É se posicionar melhor.</p>
             
             <p className="font-medium">Quando sua postura muda, a percepção muda. E quando a percepção muda, o interesse acontece de forma natural.</p>
           </section>
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
-              <div>
+              <div className="space-y-2">
                 <p className="text-2xl md:text-3xl font-bold uppercase text-green-500">APENAS HOJE</p>
                 <p className="text-2xl md:text-3xl">
                   <span className="line-through">De R$ 97,00</span><br/>
                   <span className="font-bold">Por <span className="text-green-500">R$ 37,00</span></span>
                 </p>
               </div>
-              <div>
-                <p className="text-2xl md:text-3xl mt-4">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10X MAIS</span> o poder<br/>das Frases Secretas</p>
-              </div>
+              <p className="text-2xl md:text-3xl mt-4">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10X MAIS</span> o poder<br/>das Frases Secretas</p>
               <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={400} height={200} className="mx-auto rounded-md my-4" />
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
               
