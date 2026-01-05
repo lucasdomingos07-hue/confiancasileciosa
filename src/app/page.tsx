@@ -39,7 +39,7 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p><b className="text-white">Você acabou de aprender o que dizer para despertar interesse -</b> mas existe algo ainda mais decisivo do que as palavras:</p>
+            <p><b className="text-white">Você acabou de aprender o que dizer para despertar interesse - </b>mas existe algo ainda mais decisivo do que as palavras:</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
               <p className="text-xl md:text-2xl font-semibold">A Postura Emocional<br/>por trás delas ✅</p>
@@ -49,11 +49,11 @@ export default function UpsellPage() {
               <b>O problema não está no texto. Está na ansiedade, no medo de errar e na vontade de agradar</b>
             </p>
 
-            <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
+            <p className="font-bold"><b>E isso é percebido<br/>mesmo quando nada é dito.</b></p>
 
             <div className="my-8 p-6 bg-card border border-border rounded-xl shadow-lg">
               <p className="text-base text-foreground/90">
-                O <b>programa Confiança Silenciosa</b> foi criado para te ensinar a <b>sustentar calma, presença e segurança emocional,</b> mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
+                O <b className="text-green-500">programa Confiança Silenciosa</b> foi criado para te ensinar a <b className="text-green-500">sustentar calma</b>, <b className="text-green-500">presença</b> e <b className="text-green-500">segurança emocional,</b> mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
               </p>
             </div>
 
