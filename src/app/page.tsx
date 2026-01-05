@@ -60,7 +60,7 @@ export default function UpsellPage() {
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
               <div className="space-y-2">
-                <p className="text-5xl md:text-6xl font-bold uppercase text-green-500">APENAS HOJE 🔥</p>
+                <p className="text-4xl md:text-5xl font-bold uppercase text-green-500">APENAS HOJE 🔥</p>
                  <p className="text-2xl md:text-3xl">
                   <span className="line-through">De R$ 97,00</span><br/>
                   <span className="font-bold">Por <span className="text-green-500">R$ 37,00</span></span>
@@ -90,7 +90,7 @@ export default function UpsellPage() {
                 </div>
               </div>
               
-              <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={150} height={75} className="mx-auto rounded-md my-4" />
+              <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={200} height={100} className="mx-auto rounded-md my-4" />
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
               
               <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true" className="block">
