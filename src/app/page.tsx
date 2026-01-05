@@ -54,9 +54,11 @@ export default function UpsellPage() {
               <div>
                 <p className="text-2xl md:text-3xl font-bold uppercase text-green-500">APENAS HOJE</p>
                 <p className="text-xl md:text-2xl">De <span className="line-through">R$ 97,00</span> por <span className="text-green-500 font-bold">R$ 37,00</span></p>
-                <p className="text-2xl md:text-3xl mt-4">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10x mais</span> o poder<br/>das Frases Secretas</p>
               </div>
               <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={400} height={200} className="mx-auto rounded-md my-4" />
+              <div>
+                <p className="text-2xl md:text-3xl mt-4">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10x mais</span> o poder<br/>das Frases Secretas</p>
+              </div>
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
               <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true" className="block">
                 <Button size="lg" className="uppercase font-bold text-xl py-8 px-10 animate-subtle-scale shadow-lg w-full max-w-lg bg-green-600 hover:bg-green-700 text-white">
