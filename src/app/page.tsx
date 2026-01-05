@@ -25,7 +25,7 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p>Você acabou de aprender o que dizer para despertar interesse. Mas existe algo ainda mais decisivo do que as palavras.</p>
+            <p>Você acabou de aprender o que dizer para <span className="text-blue-500">despertar interesse</span>. Mas existe algo ainda mais decisivo do que as palavras.</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
               <p className="text-xl md:text-2xl font-semibold">✅ A postura emocional<br/>por trás delas.</p>
@@ -34,26 +34,27 @@ export default function UpsellPage() {
             <p>Muitas mulheres dizem a frase certa… mas sentem que o efeito não é o mesmo.</p>
             
             <p>
-              <b>O problema não está no texto.</b> Está na ansiedade, no medo de errar e na vontade de agradar.
+              <span className="text-red-500">O problema não está no texto.</span> Está na ansiedade, no medo de errar e na vontade de agradar.
             </p>
 
             <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
 
             <div className="my-8 p-6 bg-card border border-border rounded-xl shadow-lg">
               <p className="text-base text-foreground">
-                O <b className="text-green-500">Confiança Silenciosa</b> foi criado para te ensinar a sustentar calma, presença e segurança emocional, mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
+                O <b className="text-green-500">Confiança Silenciosa</b> foi criado para te ensinar a sustentar calma, presença e segurança emocional.
               </p>
             </div>
 
-            <p>Aqui, o foco não é falar mais. É se posicionar melhor.</p>
+            <p><b>Aqui, o foco não é falar mais.</b> É se posicionar melhor.</p>
             
-            <p>Quando sua postura muda, a percepção muda. E quando a percepção muda, o interesse acontece de forma natural.</p>
+            <p className="font-semibold">Quando sua postura muda, a percepção muda. E quando a percepção muda, o interesse acontece de forma natural.</p>
           </section>
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
               <div>
-                <p className="text-2xl md:text-3xl font-bold text-green-500">Por apenas R$ 37,00</p>
-                <p className="text-2xl md:text-3xl">Você vai potencializar<br/>em até <span className="font-bold text-green-500">5x mais</span> o efeito<br/>das Frases Secretas</p>
+                <p className="text-2xl md:text-3xl font-bold uppercase text-green-500">Apenas Hoje</p>
+                <p className="text-2xl md:text-3xl">De <span className="line-through">R$ 97,00</span> por <span className="text-green-500 font-bold">R$ 37,00</span></p>
+                <p className="text-2xl md:text-3xl mt-4">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10x mais</span> o poder<br/>das Frases Secretas</p>
               </div>
               <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={400} height={200} className="mx-auto rounded-md my-4" />
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
