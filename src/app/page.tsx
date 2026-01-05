@@ -33,7 +33,7 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p>Você acabou de aprender o que dizer para <span className="text-blue-500">despertar interesse</span>. Mas existe algo ainda mais decisivo do que as palavras.</p>
+            <p>Você acabou de aprender o que dizer para <span className="text-blue-500">despertar interesse</span>. Mas existe algo ainda mais decisivo do que as palavras</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
               <p className="text-xl md:text-2xl font-semibold">✅ A postura emocional<br/>por trás delas.</p>
@@ -42,7 +42,7 @@ export default function UpsellPage() {
             <p>Muitas mulheres dizem a frase certa… mas sentem que o poder não é o mesmo.</p>
             
             <p>
-              <span className="text-red-500">O problema não está no texto.</span> Está na ansiedade, no medo de errar e na vontade de agradar.
+              <span className="text-red-500">O problema não está no texto</span>. Está na ansiedade, no medo de errar e na vontade de agradar.
             </p>
 
             <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
