@@ -33,7 +33,7 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p>Você acabou de aprender o que dizer para <span className="text-blue-500">despertar interesse</span>. Mas existe algo ainda mais decisivo do que as palavras:</p>
+            <p>Você acabou de aprender o que dizer para <b className="text-blue-500">despertar interesse</b>. Mas existe algo ainda mais decisivo do que as palavras:</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
               <p className="text-xl md:text-2xl font-semibold">✅ Postura emocional<br/>por trás delas.</p>
@@ -60,13 +60,21 @@ export default function UpsellPage() {
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
               <div className="space-y-2">
-                <p className="text-2xl md:text-3xl font-bold uppercase text-green-500">APENAS HOJE</p>
+                <p className="text-2xl md:text-3xl font-bold uppercase text-green-500">APENAS HOJE 🔥</p>
                 <p className="text-2xl md:text-3xl">
                   <span className="line-through">De R$ 97,00</span><br/>
                   <span className="font-bold">Por <span className="text-green-500">R$ 37,00</span></span>
                 </p>
                 <p className="text-2xl md:text-3xl mt-4">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10X MAIS</span> o poder<br/>das Frases Secretas</p>
               </div>
+
+              <div className="text-left my-6 space-y-2 text-lg">
+                <p>✔️ Usar as Frases Secretas com mais impacto</p>
+                <p>✔️ Mais controle emocional</p>
+                <p>✔️ Manter postura firme sem se explicar</p>
+                <p>✔️ Mais interesse sem esforço</p>
+              </div>
+              
               <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={400} height={200} className="mx-auto rounded-md my-4" />
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
               
