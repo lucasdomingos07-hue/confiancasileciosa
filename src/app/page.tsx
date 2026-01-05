@@ -58,9 +58,14 @@ export default function UpsellPage() {
             <p className="font-medium"><b>Quando sua postura muda, a percepção muda. E quando a percepção muda, o interesse acontece de forma natural.</b></p>
           </section>
 
-          <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
+          <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6 relative">
+              <div className="absolute top-0 right-0 -mt-5 -mr-2 transform rotate-12">
+                <div className="bg-green-500 text-white font-bold uppercase py-2 px-4 rounded-lg shadow-lg">
+                  APENAS HOJE!
+                </div>
+              </div>
+
               <div className="space-y-2">
-                <p className="text-xl md:text-2xl font-bold uppercase text-green-500">APENAS HOJE!</p>
                 <p className="text-xl md:text-2xl font-semibold mt-4">Programa Confiança Silenciosa</p>
                  <p className="text-2xl md:text-3xl">
                   <span className="line-through">De R$ 97,00</span><br/>
