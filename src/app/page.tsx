@@ -31,7 +31,7 @@ export default function UpsellPage() {
           
           <header className="text-center mb-8">
             <h1 className="text-3xl md:text-4xl tracking-tight font-bold">
-              <span className="text-green-500">Seu acesso está<br/>quase liberado</span> ⏳
+              <span className="text-green-500">Seu acesso está<br/>sendo criado..</span> ⏳
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground">
               Antes de entrar, descubra<br/>o que faz as Frases Secretas<br/>funcionarem de verdade.
@@ -39,7 +39,7 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p><b>Você acabou de aprender o que dizer para despertar interesse -</b> mas existe algo ainda mais decisivo do que as palavras:</p>
+            <p><b className="text-white">Você acabou de aprender o que dizer para despertar interesse -</b> mas existe algo ainda mais decisivo do que as palavras:</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
               <p className="text-xl md:text-2xl font-semibold">✅ A Postura Emocional<br/>por trás delas.</p>
@@ -53,7 +53,7 @@ export default function UpsellPage() {
 
             <div className="my-8 p-6 bg-card border border-border rounded-xl shadow-lg">
               <p className="text-base text-foreground/90">
-                O <b className="text-green-500">programa Confiança Silenciosa</b> foi criado para te ensinar a <b>sustentar calma, presença e segurança emocional,</b> mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
+                O <b>programa Confiança Silenciosa</b> foi criado para te ensinar a <b>sustentar calma, presença e segurança emocional,</b> mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
               </p>
             </div>
 
