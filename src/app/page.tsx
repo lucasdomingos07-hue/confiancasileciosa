@@ -33,7 +33,7 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p>Você acabou de aprender o que dizer para <b>despertar interesse</b>: mas existe algo ainda mais decisivo do que as palavras:</p>
+            <p><b>Você acabou de aprender o que dizer para</b> <b>despertar interesse</b>: mas existe algo ainda mais decisivo do que as palavras:</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
               <p className="text-xl md:text-2xl font-semibold">Postura emocional<br/>por trás delas.</p>
@@ -65,7 +65,10 @@ export default function UpsellPage() {
                   <span className="line-through">De R$ 97,00</span><br/>
                   <span className="font-bold">Por <span className="text-green-500">R$ 37,00</span></span>
                 </p>
-                <p className="text-2xl md:text-3xl mt-4">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10X MAIS</span> o poder<br/>das Frases Secretas</p>
+              </div>
+
+              <div className="space-y-2 mt-4">
+                <p className="text-2xl md:text-3xl">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10X MAIS</span> o poder<br/>das Frases Secretas</p>
               </div>
 
               <div className="text-left my-6 space-y-3 text-lg">
