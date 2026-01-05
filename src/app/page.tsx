@@ -33,7 +33,7 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p><b>Você acabou de aprender o que dizer para</b> <b>despertar interesse</b>: mas existe algo ainda mais decisivo do que as palavras:</p>
+            <p><b>Você acabou de aprender o que dizer para</b> <b>despertar interesse:</b> mas existe algo ainda mais decisivo do que as palavras:</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
               <p className="text-xl md:text-2xl font-semibold">✅ A Postura Emocional<br/>por trás delas.</p>
@@ -53,7 +53,7 @@ export default function UpsellPage() {
               </p>
             </div>
 
-            <p><b className="font-semibold">Aqui, o foco não é falar mais.</b> É se posicionar melhor.</p>
+            <p><b className="font-semibold">Aqui, o foco não é falar mais.</b><br/>É se posicionar melhor.</p>
             
             <p className="font-medium"><b>Quando sua postura muda, a percepção muda. E quando a percepção muda, o interesse acontece de forma natural.</b></p>
           </section>
