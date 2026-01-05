@@ -41,7 +41,7 @@ export default function UpsellPage() {
 
             <div className="my-8 p-6 bg-card border border-border rounded-xl shadow-lg">
               <p className="text-base text-foreground">
-                O <b className="text-green-500">Confiança Silenciosa</b> foi criado para te ensinar a sustentar calma, presença e segurança emocional.
+                O <b className="text-green-500">Confiança Silenciosa</b> foi criado para te ensinar a sustentar calma, presença e segurança emocional, mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
               </p>
             </div>
 
@@ -58,11 +58,12 @@ export default function UpsellPage() {
                   <span className="font-bold">Por <span className="text-green-500">R$ 37,00</span></span>
                 </p>
               </div>
-              <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={400} height={200} className="mx-auto rounded-md my-4" />
-              <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
               <div>
                 <p className="text-2xl md:text-3xl mt-4">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10x mais</span> o poder<br/>das Frases Secretas</p>
               </div>
+              <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={400} height={200} className="mx-auto rounded-md my-4" />
+              <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
+              
               <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true" className="block">
                 <Button size="lg" className="uppercase font-bold text-xl py-8 px-10 animate-subtle-scale shadow-lg w-full max-w-lg bg-green-600 hover:bg-green-700 text-white">
                   <ArrowRight className="mr-2 h-6 w-6" /> ACEITAR ESSA OFERTA
