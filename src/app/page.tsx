@@ -4,15 +4,23 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import { Progress } from "@/components/ui/progress";
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 export default function UpsellPage() {
+  const [progress, setProgress] = useState(0);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setProgress(97), 500);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
       <main className="flex min-h-screen flex-col items-center justify-start p-4 md:p-8 lg:p-12 font-body text-foreground">
         <div className="w-full max-w-2xl mx-auto text-center">
 
           <div className="w-full max-w-md mx-auto my-8">
-            <Progress value={97} indicatorClassName="bg-green-500" />
+            <Progress value={progress} indicatorClassName="bg-green-500" />
           </div>
           
           <header className="text-center mb-8">
