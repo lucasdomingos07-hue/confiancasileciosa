@@ -39,14 +39,14 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p><b className="text-green-500">Você acabou de aprender o que dizer para despertar interesse-</b> mas existe algo ainda mais decisivo do que as palavras:</p>
+            <p><b>Você acabou de aprender o que dizer para despertar interesse -</b> mas existe algo ainda mais decisivo do que as palavras:</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
               <p className="text-xl md:text-2xl font-semibold">✅ A Postura Emocional<br/>por trás delas.</p>
             </div>
 
             <p>
-              <b>O problema não está no texto. Está na <span className="font-bold">ansiedade</span>, no <span className="font-bold">medo de errar</span> e na <span className="font-bold">vontade de agradar</span></b>
+              <b>O problema não está no texto. Está na ansiedade, no medo de errar e na vontade de agradar</b>
             </p>
 
             <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
