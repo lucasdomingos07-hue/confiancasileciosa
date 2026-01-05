@@ -42,7 +42,7 @@ export default function UpsellPage() {
             <p>Muitas mulheres dizem a frase certa… mas sentem que o poder não é o mesmo.</p>
             
             <p>
-              <b className="text-white">O problema não está no texto.</b> Está na <b className="text-red-500">ansiedade</b>, no <b className="text-red-500">medo de errar</b> e na <b className="text-red-500">vontade de agradar</b>.
+              <b className="text-white">O problema não está no texto.</b> Está na <span className="text-red-500">ansiedade</span>, no <span className="text-red-500">medo de errar</span> e na <span className="text-red-500">vontade de agradar</span>.
             </p>
 
             <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
@@ -60,7 +60,7 @@ export default function UpsellPage() {
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6">
               <div className="space-y-2">
-                <p className="text-2xl md:text-3xl font-bold uppercase text-green-500">APENAS HOJE 🔥</p>
+                <p className="text-3xl md:text-4xl font-bold uppercase text-green-500">APENAS HOJE 🔥</p>
                  <p className="text-2xl md:text-3xl">
                   <span className="line-through">De R$ 97,00</span><br/>
                   <span className="font-bold">Por <span className="text-green-500">R$ 37,00</span></span>
@@ -87,7 +87,7 @@ export default function UpsellPage() {
                 </div>
               </div>
               
-              <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={200} height={100} className="mx-auto rounded-md my-4" />
+              <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={100} height={50} className="mx-auto rounded-md my-4" />
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
               
               <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true" className="block">
