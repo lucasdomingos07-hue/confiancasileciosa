@@ -90,7 +90,7 @@ export default function UpsellPage() {
                 </div>
               </div>
               
-              <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={100} height={50} className="mx-auto rounded-md my-4" />
+              <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={200} height={100} className="mx-auto rounded-md my-4" />
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
               
               <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true" className="block">
