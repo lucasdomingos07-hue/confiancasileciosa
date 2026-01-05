@@ -69,10 +69,10 @@ export default function UpsellPage() {
               </div>
 
               <div className="text-left my-6 space-y-2 text-lg">
-                <p>✔️ Usar as Frases Secretas com mais impacto</p>
-                <p>✔️ Mais controle emocional</p>
-                <p>✔️ Manter postura firme sem se explicar</p>
                 <p>✔️ Mais interesse sem esforço</p>
+                <p>✔️ Mais controle emocional</p>
+                <p>✔️ Usar as Frases Secretas com mais impacto</p>
+                <p>✔️ Manter postura firme sem se explicar</p>
               </div>
               
               <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={300} height={150} className="mx-auto rounded-md my-4" />
