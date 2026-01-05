@@ -42,7 +42,7 @@ export default function UpsellPage() {
             <p>Muitas mulheres dizem a frase certa… mas sentem que o poder não é o mesmo.</p>
             
             <p>
-              <b className="text-white">O problema não está no texto.</b> Está na <span className="text-red-500">ansiedade</span>, no <span className="text-red-500">medo de errar</span> e na <span className="text-red-500">vontade de agradar</span>.
+              <b className="text-white">O problema não está no texto.</b> Está na <b className="text-red-500">ansiedade</b>, no <b className="text-red-500">medo de errar</b> e na <b className="text-red-500">vontade de agradar</b>.
             </p>
 
             <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
