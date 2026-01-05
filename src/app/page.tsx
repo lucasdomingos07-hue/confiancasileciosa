@@ -42,7 +42,7 @@ export default function UpsellPage() {
             <p><b className="text-white">Você acabou de aprender o que dizer para despertar interesse -</b> mas existe algo ainda mais decisivo do que as palavras:</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
-              <p className="text-xl md:text-2xl font-semibold">✅ A Postura Emocional<br/>por trás delas.</p>
+              <p className="text-xl md:text-2xl font-semibold">A Postura Emocional<br/>por trás delas ✅</p>
             </div>
 
             <p>
