@@ -10,7 +10,7 @@ export default function UpsellPage() {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    const timer = setTimeout(() => setProgress(97), 50000);
+    const timer = setTimeout(() => setProgress(95), 50);
     return () => clearTimeout(timer);
   }, []);
 
@@ -20,7 +20,12 @@ export default function UpsellPage() {
         <div className="w-full max-w-2xl mx-auto text-center">
 
           <div className="w-full max-w-md mx-auto my-8">
-            <Progress value={progress} indicatorClassName="bg-green-500 duration-[50000ms]" />
+            <div className="relative">
+              <Progress value={progress} indicatorClassName="bg-green-500 transition-all duration-[3000ms] ease-linear" />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span className="text-white font-bold text-sm">{Math.round(progress)}%</span>
+              </div>
+            </div>
           </div>
           
           <header className="text-center mb-8">
@@ -40,7 +45,7 @@ export default function UpsellPage() {
             </div>
 
             <p>
-              <b>O problema não está no texto. Está na ansiedade, no medo de errar e na vontade de agradar</b>
+              <b>O problema não está no texto. Está na <span className="font-bold">ansiedade</span>, no <span className="font-bold">medo de errar</span> e na <span className="font-bold">vontade de agradar</span></b>
             </p>
 
             <p className="font-bold">E isso é percebido<br/>mesmo quando nada é dito.</p>
@@ -58,12 +63,12 @@ export default function UpsellPage() {
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6 relative overflow-hidden">
               <div className="absolute top-0 right-0">
-                <div className="bg-green-500 text-white font-bold uppercase py-2 px-6 rounded-bl-xl rounded-tr-xl shadow-lg">
+                <div className="bg-green-500 text-white font-bold uppercase py-2 px-6 rounded-tr-xl shadow-lg">
                   APENAS HOJE!
                 </div>
               </div>
 
-              <div className="space-y-2 mt-4">
+              <div className="space-y-2 mt-8">
                 <p className="text-2xl md:text-3xl font-semibold">Programa<br/>Confiança Silenciosa</p>
                  <p className="text-2xl md:text-3xl">
                   <span className="line-through">De R$ 97,00</span><br/>
@@ -94,7 +99,7 @@ export default function UpsellPage() {
                 </div>
               </div>
 
-              <Image src="https://i.imgur.com/LDq7qCx.png" alt="Confiança Silenciosa" width={600} height={400} className="mx-auto rounded-md my-4" />
+              <Image src="https://i.imgur.com/LDq7qCx.png" alt="Confiança Silenciosa" width={600} height={400} className="mx-auto rounded-md my-4 w-[450px] h-auto" />
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
               
               <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true" className="block">
