@@ -39,8 +39,6 @@ export default function UpsellPage() {
               <p className="text-xl md:text-2xl font-semibold">✅ A Postura Emocional<br/>por trás delas.</p>
             </div>
 
-            <p>Muitas mulheres dizem a frase certa… mas sentem que o poder não é o mesmo.</p>
-            
             <p>
               <b>O problema não está no texto. Está na ansiedade, no medo de errar e na vontade de agradar</b>
             </p>
@@ -58,9 +56,9 @@ export default function UpsellPage() {
             <p className="font-medium"><b>Quando sua postura muda, a percepção muda. E quando a percepção muda, o interesse acontece de forma natural.</b></p>
           </section>
 
-          <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6 relative">
-              <div className="absolute top-4 right-4">
-                <div className="bg-green-500 text-white font-bold uppercase py-2 px-4 rounded-lg shadow-lg">
+          <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6 relative overflow-hidden">
+              <div className="absolute top-4 -right-10 ">
+                <div className="bg-green-500 text-white font-bold uppercase py-2 px-8 rounded-none shadow-lg transform rotate-45">
                   APENAS HOJE!
                 </div>
               </div>
