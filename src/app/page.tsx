@@ -31,7 +31,7 @@ export default function UpsellPage() {
               <p className="text-xl md:text-2xl font-semibold">✅ A postura emocional<br/>por trás delas.</p>
             </div>
 
-            <p>Muitas mulheres dizem a frase certa… mas sentem que o efeito não é o mesmo.</p>
+            <p>Muitas mulheres dizem a frase certa… mas sentem que o poder não é o mesmo.</p>
             
             <p>
               <span className="text-red-500">O problema não está no texto.</span> Está na ansiedade, no medo de errar e na vontade de agradar.
@@ -41,7 +41,7 @@ export default function UpsellPage() {
 
             <div className="my-8 p-6 bg-card border border-border rounded-xl shadow-lg">
               <p className="text-base text-foreground">
-                O <b className="text-green-500">Confiança Silenciosa</b> foi criado para te ensinar a sustentar calma, presença e segurança emocional, mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
+                O <b className="text-green-500">Confiança Silenciosa</b> foi criado para te ensinar a sustentar calma, presença e segurança emocional.
               </p>
             </div>
 
@@ -59,7 +59,7 @@ export default function UpsellPage() {
                 </p>
               </div>
               <div>
-                <p className="text-2xl md:text-3xl mt-4">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10x MAIS</span> o poder<br/>das Frases Secretas</p>
+                <p className="text-2xl md:text-3xl mt-4">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10X MAIS</span> o poder<br/>das Frases Secretas</p>
               </div>
               <Image src="https://i.imgur.com/WkwpKxm.png" alt="Confiança Silenciosa" width={400} height={200} className="mx-auto rounded-md my-4" />
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
