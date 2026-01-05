@@ -57,8 +57,8 @@ export default function UpsellPage() {
           </section>
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6 relative overflow-hidden">
-              <div className="absolute top-4 -right-10 ">
-                <div className="bg-green-500 text-white font-bold uppercase py-2 px-8 rounded-none shadow-lg transform rotate-45">
+              <div className="absolute top-0 right-0">
+                <div className="bg-green-500 text-white font-bold uppercase py-2 px-6 rounded-bl-xl rounded-tr-xl shadow-lg">
                   APENAS HOJE!
                 </div>
               </div>
