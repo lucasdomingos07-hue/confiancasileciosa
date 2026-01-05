@@ -10,7 +10,8 @@ export default function UpsellPage() {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    const timer = setTimeout(() => setProgress(95), 50);
+    const timer = setTimeout(() => setProgress(95), 50); // Start animation shortly after mount
+    // The visual duration is handled by the CSS transition `duration-[3000ms]` on the indicator
     return () => clearTimeout(timer);
   }, []);
 
@@ -56,7 +57,7 @@ export default function UpsellPage() {
               </p>
             </div>
 
-            <p><b>Aqui, o foco não é falar mais.</b><br/>É se posicionar melhor.</p>
+            <p><b>Aqui, o foco não é falar mais.</b><br/><b>É se posicionar melhor.</b></p>
             
             <p className="font-medium"><b>Quando sua postura muda, a percepção muda. E quando a percepção muda, o interesse acontece de forma natural.</b></p>
           </section>
