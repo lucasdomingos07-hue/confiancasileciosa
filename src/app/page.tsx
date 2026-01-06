@@ -107,19 +107,15 @@ export default function UpsellPage() {
               <div className="text-left my-6 space-y-3 text-lg">
                 <div className="flex items-center gap-2">
                   <Check className="h-6 w-6 text-green-500" />
-                  <span>Mais interesse sem esforço</span>
+                  <span>Mais controle emocional</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="h-6 w-6 text-green-500" />
-                  <span>Não responder no impulso e se arrepender depois</span>
+                  <span>Mais impacto nas Frases Secretas</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="h-6 w-6 text-green-500" />
-                  <span>Fazer as Frases Secretas serem levadas a sério</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Check className="h-6 w-6 text-green-500" />
-                  <span>Manter postura firme sem se explicar</span>
+                  <span>Mais interesse sem se explicar</span>
                 </div>
               </div>
 
