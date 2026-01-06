@@ -10,10 +10,23 @@ export default function UpsellPage() {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    const timer = setTimeout(() => setProgress(95), 50); // Start animation shortly after mount
-    // The visual duration is handled by the CSS transition `duration-3000` on the indicator
+    const timer = setTimeout(() => {
+      const interval = setInterval(() => {
+        setProgress(prevProgress => {
+          if (prevProgress >= 95) {
+            clearInterval(interval);
+            return 95;
+          }
+          return prevProgress + 1;
+        });
+      }, 30); // Updates roughly every 30ms
+
+      return () => clearInterval(interval);
+    }, 100);
+
     return () => clearTimeout(timer);
   }, []);
+
 
   return (
     <>
@@ -21,8 +34,9 @@ export default function UpsellPage() {
         <div className="w-full max-w-2xl mx-auto text-center">
 
           <div className="w-full max-w-md mx-auto my-8">
+            <p className="text-lg text-muted-foreground mb-2">Seu acesso está sendo criado.. ⏳</p>
             <div className="relative">
-              <Progress value={progress} indicatorClassName="bg-green-500 transition-all duration-3000 ease-linear" />
+              <Progress value={progress} indicatorClassName="bg-green-500 transition-all duration-100 ease-linear" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="text-white font-bold text-sm">{Math.round(progress)}%</span>
               </div>
@@ -31,7 +45,7 @@ export default function UpsellPage() {
           
           <header className="text-center mb-8">
             <h1 className="text-3xl md:text-4xl tracking-tight font-bold">
-              <span className="text-green-500">Parabéns por<br/>essa escolha!</span>
+              <span className="text-green-500">Parabéns por<br/>essa escolha! 🎉</span>
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground">
               Antes de acessar, descubra<br/>o que faz as Frases Secretas<br/>funcionarem de verdade.
@@ -63,8 +77,8 @@ export default function UpsellPage() {
           </section>
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6 relative overflow-hidden">
-              <div className="absolute top-0 right-0">
-                <div className="bg-green-500 text-white font-bold uppercase py-2 px-6 rounded-tr-xl shadow-lg">
+              <div className="absolute top-0 right-0 -mr-px -mt-px">
+                <div className="bg-green-500 text-white font-bold uppercase py-2 px-6 rounded-tr-xl rounded-bl-xl shadow-lg">
                   APENAS HOJE!
                 </div>
               </div>
@@ -78,7 +92,7 @@ export default function UpsellPage() {
               </div>
 
               <div className="space-y-2 mt-4">
-                <p className="text-2xl md:text-3xl">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10X MAIS</span> o poder<br/>das Frases Secretas</p>
+                <p className="text-xl md:text-2xl">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10X MAIS</span> o poder<br/>das Frases Secretas</p>
               </div>
               
               <div className="text-left my-6 space-y-3 text-lg">
@@ -128,5 +142,3 @@ export default function UpsellPage() {
     </>
   );
 }
-
-    
