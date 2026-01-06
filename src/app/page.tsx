@@ -54,19 +54,21 @@ export default function UpsellPage() {
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
             <p>
-              Ansiedade, pressa e medo de errar são percebidos — mesmo em silêncio.
+              <b>Ansiedade, pressa e medo de errar são percebidos</b> — mesmo em silêncio.
               <br/>
               E quando isso aparece, o impacto das Frases Secretas diminui.
             </p>
 
             <p>
-              O Confiança Silenciosa foi criado para te ensinar a manter calma, presença e segurança emocional, mesmo quando você gosta e sente vontade de responder no impulso.
+              O <b>Confiança Silenciosa</b> foi criado para te ensinar a manter calma, presença e segurança emocional, mesmo quando você gosta e sente vontade de responder no impulso.
             </p>
 
             <p>
-              Aqui, não é sobre falar mais.
-              <br/>
-              É sobre se posicionar melhor.
+              <b>
+                Aqui, não é sobre falar mais.
+                <br/>
+                É sobre se posicionar melhor.
+              </b>
             </p>
             
             <p>
