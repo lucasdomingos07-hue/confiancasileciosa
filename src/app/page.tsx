@@ -11,7 +11,7 @@ export default function UpsellPage() {
 
   useEffect(() => {
     const timer = setTimeout(() => setProgress(95), 50); // Start animation shortly after mount
-    // The visual duration is handled by the CSS transition `duration-[3000ms]` on the indicator
+    // The visual duration is handled by the CSS transition `duration-3000` on the indicator
     return () => clearTimeout(timer);
   }, []);
 
@@ -22,7 +22,7 @@ export default function UpsellPage() {
 
           <div className="w-full max-w-md mx-auto my-8">
             <div className="relative">
-              <Progress value={progress} indicatorClassName="bg-green-500 transition-all duration-[3000ms] ease-linear" />
+              <Progress value={progress} indicatorClassName="bg-green-500 transition-all duration-3000 ease-linear" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="text-white font-bold text-sm">{Math.round(progress)}%</span>
               </div>
@@ -31,10 +31,10 @@ export default function UpsellPage() {
           
           <header className="text-center mb-8">
             <h1 className="text-3xl md:text-4xl tracking-tight font-bold">
-              <span className="text-green-500">Seu acesso está<br/>sendo criado..</span> ⏳
+              <span className="text-green-500">Parabéns por<br/>essa escolha!</span>
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground">
-              Antes de entrar, descubra<br/>o que faz as Frases Secretas<br/>funcionarem de verdade.
+              Antes de acessar, descubra<br/>o que faz as Frases Secretas<br/>funcionarem de verdade.
             </h2>
           </header>
 
@@ -53,7 +53,7 @@ export default function UpsellPage() {
 
             <div className="my-8 p-6 bg-card border border-border rounded-xl shadow-lg">
               <p className="text-base text-foreground/90">
-                O <b className="text-green-500">programa Confiança Silenciosa</b> foi criado para te ensinar a <b className="text-green-500">sustentar calma</b>, <b className="text-green-500">presença</b> e <b className="text-green-500">segurança emocional,</b> mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
+                O <b className="text-green-500">programa Confiança Silenciosa</b> foi criado para te ensinar a <b className="text-green-500">sustentar calma</b>, <b className="text-green-500">presença</b> e <b className="text-green-500">segurança emocional</b>, mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
               </p>
             </div>
 
@@ -128,3 +128,5 @@ export default function UpsellPage() {
     </>
   );
 }
+
+    
