@@ -53,32 +53,32 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p>Você acabou de aprender o que dizer para despertar interesse - <span className="text-white">mas existe algo ainda mais decisivo do que as palavras:</span></p>
-            
-            <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
-              <p className="text-xl md:text-2xl font-semibold">A Postura Emocional<br/>por trás delas ✅</p>
-            </div>
+            <p>
+              Ansiedade, pressa e medo de errar são percebidos — mesmo em silêncio.
+              <br/>
+              E quando isso aparece, o impacto das Frases Secretas diminui.
+            </p>
 
             <p>
-              <b>O problema não está no texto. Está na ansiedade, no medo de errar e na vontade de agradar</b>
+              O Confiança Silenciosa foi criado para te ensinar a manter calma, presença e segurança emocional, mesmo quando você gosta e sente vontade de responder no impulso.
             </p>
 
-            <p className="font-bold"><b>E isso é percebido<br/>mesmo quando nada é dito.</b></p>
-
-            <p><b>Aqui, o foco não é falar mais.</b><br/><b>É se posicionar melhor.</b></p>
+            <p>
+              <b>Aqui, não é sobre falar mais.</b>
+              <br/>
+              <b>É sobre se posicionar melhor.</b>
+            </p>
             
-            <p className="font-medium"><b>Quando sua postura muda, a percepção muda. E quando a percepção muda, o interesse acontece de forma natural.</b></p>
+            <p className="font-medium">
+              <b>Quando sua postura muda, a percepção muda.</b>
+              <br/>
+              <b>E quando a percepção muda, o interesse acontece naturalmente.</b>
+            </p>
           </section>
 
-          <div className="my-8 p-6 bg-card border border-border rounded-xl shadow-lg">
-            <p className="text-base text-foreground/90">
-              O <b className="text-green-500">programa Confiança Silenciosa</b> foi criado para te ensinar a <b className="text-green-500">sustentar calma</b>, <b className="text-green-500">presença</b> e <b className="text-green-500">segurança emocional</b>, mesmo quando você gosta, mesmo quando sente vontade de responder no impulso.
-            </p>
-          </div>
-
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6 relative overflow-hidden">
-              <div className="absolute top-0 right-0">
-                <div className="bg-green-500 text-white font-bold uppercase py-2 px-6 rounded-bl-xl shadow-lg">
+              <div className="absolute top-0 right-0 -mr-px -mt-px">
+                <div className="bg-green-500 text-white font-bold uppercase py-2 px-6 rounded-bl-xl rounded-tr-xl shadow-lg">
                   APENAS HOJE
                 </div>
               </div>
@@ -93,7 +93,7 @@ export default function UpsellPage() {
               </div>
 
               <div className="space-y-2 mt-4">
-                <p className="text-xl md:text-2xl">Você vai potencializar<br/>em até <span className="font-bold text-green-500">10X MAIS</span> o poder<br/>das Frases Secretas</p>
+                <p className="text-2xl md:text-3xl font-bold text-green-500">Você vai potencializar<br/>em até 10X MAIS o poder<br/>das Frases Secretas</p>
               </div>
               
               <div className="text-left my-6 space-y-3 text-lg">
