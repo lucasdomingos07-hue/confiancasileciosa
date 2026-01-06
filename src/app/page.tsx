@@ -107,15 +107,15 @@ export default function UpsellPage() {
               <div className="text-left my-6 space-y-3 text-lg">
                 <div className="flex items-center gap-2">
                   <Check className="h-6 w-6 text-green-500" />
-                  <span>Mais controle emocional</span>
+                  <span className="font-bold">Mais controle emocional</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="h-6 w-6 text-green-500" />
-                  <span>Mais impacto nas Frases Secretas</span>
+                  <span className="font-bold">Mais impacto nas Frases Secretas</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="h-6 w-6 text-green-500" />
-                  <span>Mais interesse sem se explicar</span>
+                  <span className="font-bold">Mais interesse sem se explicar</span>
                 </div>
               </div>
 
