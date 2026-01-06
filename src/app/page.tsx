@@ -19,7 +19,7 @@ export default function UpsellPage() {
           }
           return prevProgress + 1;
         });
-      }, 30); // Updates roughly every 30ms
+      }, 30); // Updates roughly every 30ms to reach 95% in ~3 seconds
 
       return () => clearInterval(interval);
     }, 100);
@@ -45,7 +45,7 @@ export default function UpsellPage() {
           
           <header className="text-center mb-8">
             <h1 className="text-3xl md:text-4xl tracking-tight font-bold">
-              <span className="text-green-500">Parabéns por<br/>essa escolha! 🎉</span>
+              <span className="text-green-500">Parabéns por<br/>essa escolha 🎉</span>
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground">
               Antes de acessar, descubra<br/>o que faz as Frases Secretas<br/>funcionarem de verdade.
@@ -53,7 +53,7 @@ export default function UpsellPage() {
           </header>
 
           <section className="my-10 space-y-6 text-lg md:text-xl leading-relaxed text-foreground/90">
-            <p><b className="text-white">Você acabou de aprender o que dizer para despertar interesse - </b>mas existe algo ainda mais decisivo do que as palavras:</p>
+            <p><b className="text-white">Você acabou de aprender o que dizer para despertar interesse</b> - mas existe algo ainda mais decisivo do que as palavras:</p>
             
             <div className="py-4 px-6 bg-card/50 border border-primary/20 rounded-xl inline-block">
               <p className="text-xl md:text-2xl font-semibold">A Postura Emocional<br/>por trás delas ✅</p>
@@ -78,13 +78,13 @@ export default function UpsellPage() {
 
           <section className="my-12 p-8 bg-card border border-border rounded-2xl shadow-2xl text-center space-y-6 relative overflow-hidden">
               <div className="absolute top-0 right-0 -mr-px -mt-px">
-                <div className="bg-green-500 text-white font-bold uppercase py-2 px-6 rounded-tr-xl rounded-bl-xl shadow-lg">
+                <div className="bg-green-500 text-white font-bold uppercase py-2 px-6 rounded-bl-xl shadow-lg">
                   APENAS HOJE!
                 </div>
               </div>
 
-              <div className="space-y-2 mt-8">
-                <p className="text-2xl md:text-3xl font-semibold">Programa<br/>Confiança Silenciosa</p>
+              <p className="text-xl md:text-2xl mt-8">Programa<br/>Confiança Silenciosa</p>
+              <div className="space-y-2">
                  <p className="text-2xl md:text-3xl">
                   <span className="line-through">De R$ 97,00</span><br/>
                   <span className="font-bold">Por <span className="text-green-500">R$ 37,00</span></span>
