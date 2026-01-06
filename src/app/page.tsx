@@ -64,15 +64,15 @@ export default function UpsellPage() {
             </p>
 
             <p>
-              <b>Aqui, não é sobre falar mais.</b>
+              Aqui, não é sobre falar mais.
               <br/>
-              <b>É sobre se posicionar melhor.</b>
+              É sobre se posicionar melhor.
             </p>
             
-            <p className="font-medium">
-              <b>Quando sua postura muda, a percepção muda.</b>
+            <p>
+              Quando sua postura muda, a percepção muda.
               <br/>
-              <b>E quando a percepção muda, o interesse acontece naturalmente.</b>
+              E quando a percepção muda, o interesse acontece naturalmente.
             </p>
           </section>
 
