@@ -101,7 +101,7 @@ export default function UpsellPage() {
               </div>
 
               <div className="space-y-2 mt-4">
-                <p className="text-2xl md:text-3xl font-bold text-green-500">Você vai potencializar<br/>em até 10X MAIS o poder<br/>das Frases Secretas</p>
+                <p className="text-2xl md:text-3xl font-bold">Você vai potencializar<br/>em até <span className="text-green-500">10X MAIS</span> o poder<br/>das Frases Secretas</p>
               </div>
               
               <div className="text-left my-6 space-y-3 text-lg">
