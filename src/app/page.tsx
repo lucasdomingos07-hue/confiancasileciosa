@@ -72,9 +72,13 @@ export default function UpsellPage() {
             </p>
             
             <p>
-              Quando sua postura muda, a percepção muda.
+              Quando sua postura muda,
               <br/>
-              E quando a percepção muda, o interesse acontece naturalmente.
+              a percepção muda. E quando
+              <br/>
+              a percepção muda, o interesse
+              <br/>
+              acontece naturalmente.
             </p>
           </section>
 
