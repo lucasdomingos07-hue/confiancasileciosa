@@ -89,7 +89,9 @@ export default function UpsellPage() {
                 </div>
               </div>
 
-              <p className="text-xl md:text-2xl mt-8 font-bold">Treinamento Confiança Silenciosa</p>
+              <p className="text-2xl md:text-3xl mt-8 font-bold">
+                Treinamento<br/>Confiança Silenciosa
+              </p>
               <p className="text-base text-muted-foreground">Sem essa postura, até a frase certa pode perder o efeito.</p>
               <div className="space-y-2">
                  <p className="text-2xl md:text-3xl">
