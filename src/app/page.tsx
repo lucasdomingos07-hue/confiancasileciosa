@@ -48,7 +48,7 @@ export default function UpsellPage() {
               <span className="text-green-500">Parabéns por<br/>essa escolha 🎉</span>
             </h1>
             <h2 className="mt-4 text-lg md:text-xl text-muted-foreground">
-              Antes de acessar, descubra<br/>o que faz as Frases Secretas<br/>funcionarem de verdade.
+              Antes de acessar, existe um detalhe que define se as Frases Secretas vão funcionar ou não.
             </h2>
           </header>
 
@@ -83,7 +83,8 @@ export default function UpsellPage() {
                 </div>
               </div>
 
-              <p className="text-xl md:text-2xl mt-8">Programa<br/>Confiança Silenciosa</p>
+              <p className="text-xl md:text-2xl mt-8 font-bold">Treinamento Confiança Silenciosa</p>
+              <p className="text-base text-muted-foreground">Sem essa postura, até a frase certa pode perder o efeito.</p>
               <div className="space-y-2">
                  <p className="text-2xl md:text-3xl">
                   <span className="line-through">De R$ 97,00</span><br/>
@@ -102,11 +103,11 @@ export default function UpsellPage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="h-6 w-6 text-green-500" />
-                  <span>Mais controle emocional</span>
+                  <span>Não responder no impulso e se arrepender depois</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="h-6 w-6 text-green-500" />
-                  <span>Usar as Frases Secretas com mais impacto</span>
+                  <span>Fazer as Frases Secretas serem levadas a sério</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="h-6 w-6 text-green-500" />
@@ -119,7 +120,7 @@ export default function UpsellPage() {
               
               <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true" className="block">
                 <Button size="lg" className="uppercase font-bold text-xl py-8 px-10 animate-subtle-scale shadow-lg w-full max-w-lg bg-green-600 hover:bg-green-700 text-white">
-                  <ArrowRight className="mr-2 h-6 w-6" /> ACEITAR ESSA OFERTA
+                  <ArrowRight className="mr-2 h-6 w-6" /> Ativar a Confiança Silenciosa
                 </Button>
               </a>
              <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true">
