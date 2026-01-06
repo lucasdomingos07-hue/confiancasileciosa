@@ -123,7 +123,7 @@ export default function UpsellPage() {
               <p className="mt-2 text-muted-foreground">Conteúdo digital com acesso imediato.</p>
               
               <a href="https://checkout.dinamicasdafe.site/VCCL1O8SCNW2?upsell=true" className="block">
-                <Button size="lg" className="uppercase font-bold text-lg py-6 px-8 animate-subtle-scale shadow-lg w-full max-w-lg bg-green-600 hover:bg-green-700 text-white">
+                <Button size="lg" className="uppercase font-bold py-6 px-8 animate-subtle-scale shadow-lg w-full max-w-lg bg-green-600 hover:bg-green-700 text-white">
                   <ArrowRight className="mr-2 h-6 w-6" /> Quero ativar o Confiança Silenciosa
                 </Button>
               </a>
