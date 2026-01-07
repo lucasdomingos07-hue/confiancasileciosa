@@ -104,9 +104,17 @@ export default function UpsellPage() {
               </div>
 
               <div>
-                <p className="text-sm text-muted-foreground mb-1">Oferta Especial - Expira em:</p>
-                <div className="font-bold text-2xl tracking-widest">
-                  <span>{minutes}</span>:<span>{seconds}</span>
+                <p className="text-sm text-muted-foreground mb-2">Oferta Especial - Expira em:</p>
+                <div className="flex justify-center items-center gap-2 text-center">
+                  <div className="flex flex-col items-center">
+                    <span className="text-3xl font-bold p-2 bg-neutral-800/50 rounded-md min-w-[60px]">{minutes}</span>
+                    <span className="text-xs text-muted-foreground mt-1">MIN</span>
+                  </div>
+                  <span className="text-3xl font-bold">:</span>
+                  <div className="flex flex-col items-center">
+                    <span className="text-3xl font-bold p-2 bg-neutral-800/50 rounded-md min-w-[60px]">{seconds}</span>
+                    <span className="text-xs text-muted-foreground mt-1">SEG</span>
+                  </div>
                 </div>
               </div>
 
