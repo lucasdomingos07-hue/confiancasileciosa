@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 
 export default function UpsellPage() {
   const [progress, setProgress] = useState(0);
+  const [timeLeft, setTimeLeft] = useState(299); // 4 minutes 59 seconds
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -26,6 +27,19 @@ export default function UpsellPage() {
 
     return () => clearTimeout(timer);
   }, []);
+
+  useEffect(() => {
+    if (!timeLeft) return;
+
+    const intervalId = setInterval(() => {
+      setTimeLeft(timeLeft - 1);
+    }, 1000);
+
+    return () => clearInterval(intervalId);
+  }, [timeLeft]);
+
+  const minutes = Math.floor(timeLeft / 60).toString().padStart(2, '0');
+  const seconds = (timeLeft % 60).toString().padStart(2, '0');
 
 
   return (
@@ -87,6 +101,10 @@ export default function UpsellPage() {
                 <div className="bg-green-500 text-white font-bold uppercase py-2 px-6 rounded-bl-xl rounded-tr-xl shadow-lg">
                   APENAS HOJE
                 </div>
+              </div>
+
+              <div className="font-bold text-2xl tracking-widest">
+                <span>{minutes}</span>:<span>{seconds}</span>
               </div>
 
               <p className="text-2xl md:text-3xl mt-8 font-bold">
