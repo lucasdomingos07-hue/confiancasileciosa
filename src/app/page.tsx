@@ -103,8 +103,11 @@ export default function UpsellPage() {
                 </div>
               </div>
 
-              <div className="font-bold text-2xl tracking-widest">
-                <span>{minutes}</span>:<span>{seconds}</span>
+              <div>
+                <p className="text-sm text-muted-foreground mb-1">Oferta Especial - Expira em:</p>
+                <div className="font-bold text-2xl tracking-widest">
+                  <span>{minutes}</span>:<span>{seconds}</span>
+                </div>
               </div>
 
               <p className="text-2xl md:text-3xl mt-8 font-bold">
