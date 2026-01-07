@@ -95,8 +95,8 @@ export default function UpsellPage() {
               <p className="text-base text-muted-foreground">Sem essa postura, até a frase certa pode perder o efeito.</p>
               <div className="space-y-2">
                  <p className="text-2xl md:text-3xl">
-                  <span className="line-through">De R$ 97,00</span><br/>
-                  <span className="font-bold">Por <span className="text-green-500">R$ 37,00</span></span>
+                  <span className="line-through">De R$ 149,90</span><br/>
+                  <span className="font-bold">Por <span className="text-green-500">R$ 49,90</span></span>
                 </p>
               </div>
 
